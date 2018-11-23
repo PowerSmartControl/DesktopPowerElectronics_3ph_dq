@@ -1,0 +1,279 @@
+22:02:42 **** Incremental Build of configuration Debug for project 3ph_f2f_dq_revA ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: 3ph_f2f_dq_revA.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../3ph_f2f_dq_bsp/ps7_cortexa9_0/lib -o "3ph_f2f_dq_revA.elf"  ./src/USB_commands.o ./src/control_library.o ./src/main.o ./src/scope_library.o ./src/xusbps_ch9.o ./src/xusbps_ch9_storage.o ./src/xusbps_class_storage.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/control_library.o: In function `vsiControlSetConfiguration':
+D:\Projects\PSoC_3ph_f2f\vivado\3ph_f2f_dq_rev0\3ph_f2f_dq_prj\3ph_f2f_dq_prj.sdk\3ph_f2f_dq_revA\Debug/../src/control_library.c:74: undefined reference to `XVsi_control_Set_params_vRef_V'
+D:\Projects\PSoC_3ph_f2f\vivado\3ph_f2f_dq_rev0\3ph_f2f_dq_prj\3ph_f2f_dq_prj.sdk\3ph_f2f_dq_revA\Debug/../src/control_library.c:75: undefined reference to `XVsi_control_Set_params_Kp_V'
+D:\Projects\PSoC_3ph_f2f\vivado\3ph_f2f_dq_rev0\3ph_f2f_dq_prj\3ph_f2f_dq_prj.sdk\3ph_f2f_dq_revA\Debug/../src/control_library.c:76: undefined reference to `XVsi_control_Set_params_Ki2_V'
+D:\Projects\PSoC_3ph_f2f\vivado\3ph_f2f_dq_rev0\3ph_f2f_dq_prj\3ph_f2f_dq_prj.sdk\3ph_f2f_dq_revA\Debug/../src/control_library.c:77: undefined reference to `XVsi_control_Set_params_Kd_V'
+D:\Projects\PSoC_3ph_f2f\vivado\3ph_f2f_dq_rev0\3ph_f2f_dq_prj\3ph_f2f_dq_prj.sdk\3ph_f2f_dq_revA\Debug/../src/control_library.c:78: undefined reference to `XVsi_control_Set_params_y_min_V'
+D:\Projects\PSoC_3ph_f2f\vivado\3ph_f2f_dq_rev0\3ph_f2f_dq_prj\3ph_f2f_dq_prj.sdk\3ph_f2f_dq_revA\Debug/../src/control_library.c:79: undefined reference to `XVsi_control_Set_params_y_max_V'
+collect2.exe: error: ld returned 1 exit status
+make: *** [3ph_f2f_dq_revA.elf] Error 1
+22:03:30 **** Auto Build of configuration Debug for project 3ph_f2f_dq_revA ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/control_library.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/control_library.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../3ph_f2f_dq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/control_library.d" -MT"src/control_library.o" -o "src/control_library.o" "../src/control_library.c"
+../src/control_library.c: In function 'vsiControlSetConfiguration':
+../src/control_library.c:74:45: error: 'VSIControl {aka struct <anonymous>}' has no member named 'PhaseGenInst'; did you mean 'PhaseGenFPInst'?
+  XPhase_generator_fp_Set_incr_V(&vsiCtrlInst->PhaseGenInst, CfgData->phase);
+                                             ^~
+../src/control_library.c:76:2: warning: implicit declaration of function 'XVsi_control_Set_params_vRef_V' [-Wimplicit-function-declaration]
+  XVsi_control_Set_params_vRef_V(&vsiCtrlInst->VSICtrlInst, CfgData->voltageCompensator.ref_val);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/control_library.c:77:2: warning: implicit declaration of function 'XVsi_control_Set_params_Kp_V' [-Wimplicit-function-declaration]
+  XVsi_control_Set_params_Kp_V(&vsiCtrlInst->VSICtrlInst, CfgData->voltageCompensator.Kp);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/control_library.c:78:2: warning: implicit declaration of function 'XVsi_control_Set_params_Ki2_V' [-Wimplicit-function-declaration]
+  XVsi_control_Set_params_Ki2_V(&vsiCtrlInst->VSICtrlInst, CfgData->voltageCompensator.Ki2);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/control_library.c:79:2: warning: implicit declaration of function 'XVsi_control_Set_params_Kd_V' [-Wimplicit-function-declaration]
+  XVsi_control_Set_params_Kd_V(&vsiCtrlInst->VSICtrlInst, CfgData->voltageCompensator.Kd);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/control_library.c:80:2: warning: implicit declaration of function 'XVsi_control_Set_params_y_min_V' [-Wimplicit-function-declaration]
+  XVsi_control_Set_params_y_min_V(&vsiCtrlInst->VSICtrlInst, CfgData->voltageCompensator.y_min);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/control_library.c:81:2: warning: implicit declaration of function 'XVsi_control_Set_params_y_max_V' [-Wimplicit-function-declaration]
+  XVsi_control_Set_params_y_max_V(&vsiCtrlInst->VSICtrlInst, CfgData->voltageCompensator.y_max);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [src/control_library.o] Error 1
+22:04:34 **** Auto Build of configuration Debug for project 3ph_f2f_dq_revA ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/control_library.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/control_library.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../3ph_f2f_dq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/control_library.d" -MT"src/control_library.o" -o "src/control_library.o" "../src/control_library.c"
+../src/control_library.c: In function 'vsiControlSetConfiguration':
+../src/control_library.c:74:2: warning: implicit declaration of function 'XPhase_generator_fp_Set_incr' [-Wimplicit-function-declaration]
+  XPhase_generator_fp_Set_incr(&vsiCtrlInst->PhaseGenInst, CfgData->phase);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/control_library.c:74:43: error: 'VSIControl {aka struct <anonymous>}' has no member named 'PhaseGenInst'; did you mean 'PhaseGenFPInst'?
+  XPhase_generator_fp_Set_incr(&vsiCtrlInst->PhaseGenInst, CfgData->phase);
+                                           ^~
+../src/control_library.c:77:2: warning: implicit declaration of function 'XVsi_control_Set_params_Kp_V' [-Wimplicit-function-declaration]
+  XVsi_control_Set_params_Kp_V(&vsiCtrlInst->VSICtrlInst, CfgData->voltageCompensator.Kp);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/control_library.c:78:2: warning: implicit declaration of function 'XVsi_control_Set_params_Ki2_V' [-Wimplicit-function-declaration]
+  XVsi_control_Set_params_Ki2_V(&vsiCtrlInst->VSICtrlInst, CfgData->voltageCompensator.Ki2);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/control_library.c:79:2: warning: implicit declaration of function 'XVsi_control_Set_params_Kd_V' [-Wimplicit-function-declaration]
+  XVsi_control_Set_params_Kd_V(&vsiCtrlInst->VSICtrlInst, CfgData->voltageCompensator.Kd);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/control_library.c:80:2: warning: implicit declaration of function 'XVsi_control_Set_params_y_min_V' [-Wimplicit-function-declaration]
+  XVsi_control_Set_params_y_min_V(&vsiCtrlInst->VSICtrlInst, CfgData->voltageCompensator.y_min);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/control_library.c:81:2: warning: implicit declaration of function 'XVsi_control_Set_params_y_max_V' [-Wimplicit-function-declaration]
+  XVsi_control_Set_params_y_max_V(&vsiCtrlInst->VSICtrlInst, CfgData->voltageCompensator.y_max);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [src/control_library.o] Error 1
+22:04:46 **** Auto Build of configuration Debug for project 3ph_f2f_dq_revA ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/control_library.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/control_library.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../3ph_f2f_dq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/control_library.d" -MT"src/control_library.o" -o "src/control_library.o" "../src/control_library.c"
+../src/control_library.c: In function 'vsiControlSetConfiguration':
+../src/control_library.c:74:2: warning: implicit declaration of function 'XPhase_generator_fp_Set_incr' [-Wimplicit-function-declaration]
+  XPhase_generator_fp_Set_incr(&vsiCtrlInst->PhaseGenFPInst, CfgData->phase);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/control_library.c:77:2: warning: implicit declaration of function 'XVsi_control_Set_params_Kp_V' [-Wimplicit-function-declaration]
+  XVsi_control_Set_params_Kp_V(&vsiCtrlInst->VSICtrlInst, CfgData->voltageCompensator.Kp);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/control_library.c:78:2: warning: implicit declaration of function 'XVsi_control_Set_params_Ki2_V' [-Wimplicit-function-declaration]
+  XVsi_control_Set_params_Ki2_V(&vsiCtrlInst->VSICtrlInst, CfgData->voltageCompensator.Ki2);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/control_library.c:79:2: warning: implicit declaration of function 'XVsi_control_Set_params_Kd_V' [-Wimplicit-function-declaration]
+  XVsi_control_Set_params_Kd_V(&vsiCtrlInst->VSICtrlInst, CfgData->voltageCompensator.Kd);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/control_library.c:80:2: warning: implicit declaration of function 'XVsi_control_Set_params_y_min_V' [-Wimplicit-function-declaration]
+  XVsi_control_Set_params_y_min_V(&vsiCtrlInst->VSICtrlInst, CfgData->voltageCompensator.y_min);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/control_library.c:81:2: warning: implicit declaration of function 'XVsi_control_Set_params_y_max_V' [-Wimplicit-function-declaration]
+  XVsi_control_Set_params_y_max_V(&vsiCtrlInst->VSICtrlInst, CfgData->voltageCompensator.y_max);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/control_library.c'
+' '
+'Building target: 3ph_f2f_dq_revA.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../3ph_f2f_dq_bsp/ps7_cortexa9_0/lib -o "3ph_f2f_dq_revA.elf"  ./src/USB_commands.o ./src/control_library.o ./src/main.o ./src/scope_library.o ./src/xusbps_ch9.o ./src/xusbps_ch9_storage.o ./src/xusbps_class_storage.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/control_library.o: In function `vsiControlSetConfiguration':
+D:\Projects\PSoC_3ph_f2f\vivado\3ph_f2f_dq_rev0\3ph_f2f_dq_prj\3ph_f2f_dq_prj.sdk\3ph_f2f_dq_revA\Debug/../src/control_library.c:74: undefined reference to `XPhase_generator_fp_Set_incr'
+D:\Projects\PSoC_3ph_f2f\vivado\3ph_f2f_dq_rev0\3ph_f2f_dq_prj\3ph_f2f_dq_prj.sdk\3ph_f2f_dq_revA\Debug/../src/control_library.c:77: undefined reference to `XVsi_control_Set_params_Kp_V'
+D:\Projects\PSoC_3ph_f2f\vivado\3ph_f2f_dq_rev0\3ph_f2f_dq_prj\3ph_f2f_dq_prj.sdk\3ph_f2f_dq_revA\Debug/../src/control_library.c:78: undefined reference to `XVsi_control_Set_params_Ki2_V'
+D:\Projects\PSoC_3ph_f2f\vivado\3ph_f2f_dq_rev0\3ph_f2f_dq_prj\3ph_f2f_dq_prj.sdk\3ph_f2f_dq_revA\Debug/../src/control_library.c:79: undefined reference to `XVsi_control_Set_params_Kd_V'
+D:\Projects\PSoC_3ph_f2f\vivado\3ph_f2f_dq_rev0\3ph_f2f_dq_prj\3ph_f2f_dq_prj.sdk\3ph_f2f_dq_revA\Debug/../src/control_library.c:80: undefined reference to `XVsi_control_Set_params_y_min_V'
+D:\Projects\PSoC_3ph_f2f\vivado\3ph_f2f_dq_rev0\3ph_f2f_dq_prj\3ph_f2f_dq_prj.sdk\3ph_f2f_dq_revA\Debug/../src/control_library.c:81: undefined reference to `XVsi_control_Set_params_y_max_V'
+collect2.exe: error: ld returned 1 exit status
+make: *** [3ph_f2f_dq_revA.elf] Error 1
+22:04:57 **** Auto Build of configuration Debug for project 3ph_f2f_dq_revA ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/control_library.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/control_library.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../3ph_f2f_dq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/control_library.d" -MT"src/control_library.o" -o "src/control_library.o" "../src/control_library.c"
+../src/control_library.c: In function 'vsiControlSetConfiguration':
+../src/control_library.c:74:2: warning: implicit declaration of function 'XPhase_generator_fp_Set_incr' [-Wimplicit-function-declaration]
+  XPhase_generator_fp_Set_incr(&vsiCtrlInst->PhaseGenFPInst, CfgData->phase);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/control_library.c'
+' '
+'Building target: 3ph_f2f_dq_revA.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../3ph_f2f_dq_bsp/ps7_cortexa9_0/lib -o "3ph_f2f_dq_revA.elf"  ./src/USB_commands.o ./src/control_library.o ./src/main.o ./src/scope_library.o ./src/xusbps_ch9.o ./src/xusbps_ch9_storage.o ./src/xusbps_class_storage.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/control_library.o: In function `vsiControlSetConfiguration':
+D:\Projects\PSoC_3ph_f2f\vivado\3ph_f2f_dq_rev0\3ph_f2f_dq_prj\3ph_f2f_dq_prj.sdk\3ph_f2f_dq_revA\Debug/../src/control_library.c:74: undefined reference to `XPhase_generator_fp_Set_incr'
+collect2.exe: error: ld returned 1 exit status
+make: *** [3ph_f2f_dq_revA.elf] Error 1
+22:05:48 **** Auto Build of configuration Debug for project 3ph_f2f_dq_revA ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/control_library.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/control_library.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../3ph_f2f_dq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/control_library.d" -MT"src/control_library.o" -o "src/control_library.o" "../src/control_library.c"
+'Finished building: ../src/control_library.c'
+' '
+'Building target: 3ph_f2f_dq_revA.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../3ph_f2f_dq_bsp/ps7_cortexa9_0/lib -o "3ph_f2f_dq_revA.elf"  ./src/USB_commands.o ./src/control_library.o ./src/main.o ./src/scope_library.o ./src/xusbps_ch9.o ./src/xusbps_ch9_storage.o ./src/xusbps_class_storage.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: 3ph_f2f_dq_revA.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size 3ph_f2f_dq_revA.elf  |tee "3ph_f2f_dq_revA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  53720	   3892	1139232	1196844	 12432c	3ph_f2f_dq_revA.elf
+'Finished building: 3ph_f2f_dq_revA.elf.size'
+' '
+22:08:40 **** Incremental Build of configuration Debug for project 3ph_f2f_dq_revA ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+22:09:18 **** Incremental Build of configuration Debug for project 3ph_f2f_dq_revA ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+22:19:13 **** Auto Build of configuration Debug for project 3ph_f2f_dq_revA ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../3ph_f2f_dq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'SysInit':
+../src/main.c:112:23: warning: unused variable 'defaultVSICfg' [-Wunused-variable]
+  static VSIControlCfg defaultVSICfg = {0, 0x863, {0, 0x0, 0x0, 0x0, 0, 0}, 0, 0}; //Default values
+                       ^~~~~~~~~~~~~
+../src/main.c: In function 'Ep1EventHandler':
+../src/main.c:293:4: warning: implicit declaration of function 'vsiCMDdecode' [-Wimplicit-function-declaration]
+    vsiCMDdecode(commandID, BufferPtr+1, &vsiCtrlInst, &vsiCtrlCfg);
+    ^~~~~~~~~~~~
+At top level:
+../src/main.c:112:23: warning: 'defaultVSICfg' defined but not used [-Wunused-variable]
+  static VSIControlCfg defaultVSICfg = {0, 0x863, {0, 0x0, 0x0, 0x0, 0, 0}, 0, 0}; //Default values
+                       ^~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: 3ph_f2f_dq_revA.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../3ph_f2f_dq_bsp/ps7_cortexa9_0/lib -o "3ph_f2f_dq_revA.elf"  ./src/USB_commands.o ./src/control_library.o ./src/main.o ./src/scope_library.o ./src/xusbps_ch9.o ./src/xusbps_ch9_storage.o ./src/xusbps_class_storage.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: 3ph_f2f_dq_revA.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size 3ph_f2f_dq_revA.elf  |tee "3ph_f2f_dq_revA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  53720	   3932	1139200	1196852	 124334	3ph_f2f_dq_revA.elf
+'Finished building: 3ph_f2f_dq_revA.elf.size'
+' '
+22:22:57 **** Auto Build of configuration Debug for project 3ph_f2f_dq_revA ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../3ph_f2f_dq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'SysInit':
+../src/main.c:112:23: warning: unused variable 'defaultVSICfg' [-Wunused-variable]
+  static VSIControlCfg defaultVSICfg = {0x863, 0, {0, 0x0, 0x0, 0x0, 0, 0}, 0, 0}; //Default values
+                       ^~~~~~~~~~~~~
+../src/main.c: In function 'Ep1EventHandler':
+../src/main.c:293:4: warning: implicit declaration of function 'vsiCMDdecode' [-Wimplicit-function-declaration]
+    vsiCMDdecode(commandID, BufferPtr+1, &vsiCtrlInst, &vsiCtrlCfg);
+    ^~~~~~~~~~~~
+At top level:
+../src/main.c:112:23: warning: 'defaultVSICfg' defined but not used [-Wunused-variable]
+  static VSIControlCfg defaultVSICfg = {0x863, 0, {0, 0x0, 0x0, 0x0, 0, 0}, 0, 0}; //Default values
+                       ^~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: 3ph_f2f_dq_revA.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../3ph_f2f_dq_bsp/ps7_cortexa9_0/lib -o "3ph_f2f_dq_revA.elf"  ./src/USB_commands.o ./src/control_library.o ./src/main.o ./src/scope_library.o ./src/xusbps_ch9.o ./src/xusbps_ch9_storage.o ./src/xusbps_class_storage.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: 3ph_f2f_dq_revA.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size 3ph_f2f_dq_revA.elf  |tee "3ph_f2f_dq_revA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  53720	   3932	1139200	1196852	 124334	3ph_f2f_dq_revA.elf
+'Finished building: 3ph_f2f_dq_revA.elf.size'
+' '
+22:23:01 **** Auto Build of configuration Debug for project 3ph_f2f_dq_revA ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../3ph_f2f_dq_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'Ep1EventHandler':
+../src/main.c:293:4: warning: implicit declaration of function 'vsiCMDdecode' [-Wimplicit-function-declaration]
+    vsiCMDdecode(commandID, BufferPtr+1, &vsiCtrlInst, &vsiCtrlCfg);
+    ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: 3ph_f2f_dq_revA.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../3ph_f2f_dq_bsp/ps7_cortexa9_0/lib -o "3ph_f2f_dq_revA.elf"  ./src/USB_commands.o ./src/control_library.o ./src/main.o ./src/scope_library.o ./src/xusbps_ch9.o ./src/xusbps_ch9_storage.o ./src/xusbps_class_storage.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: 3ph_f2f_dq_revA.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size 3ph_f2f_dq_revA.elf  |tee "3ph_f2f_dq_revA.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  53720	   3892	1139200	1196812	 12430c	3ph_f2f_dq_revA.elf
+'Finished building: 3ph_f2f_dq_revA.elf.size'
+' '
+22:29:47 **** Incremental Build of configuration Debug for project 3ph_f2f_dq_revA ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+22:30:44 **** Incremental Build of configuration Debug for project 3ph_f2f_dq_revA ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+22:31:04 **** Incremental Build of configuration Debug for project 3ph_f2f_dq_revA ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+22:32:02 **** Incremental Build of configuration Debug for project 3ph_f2f_dq_revA ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+17:59:58 **** Incremental Build of configuration Debug for project 3ph_f2f_dq_revA ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.

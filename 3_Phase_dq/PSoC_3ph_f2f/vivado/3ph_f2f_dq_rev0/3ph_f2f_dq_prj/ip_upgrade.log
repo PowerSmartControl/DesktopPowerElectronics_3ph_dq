@@ -1,0 +1,325 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Fri Sep 15 18:15:14 2017
+| Host         : DESKTOP-Q08U40I running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'top_bd_vsi_control_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of top_bd_vsi_control_0_0 (PSC:hls:vsi_control:1.0) from (Rev. 1708291646) to (Rev. 1709151802)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'top_bd_vsi_control_0_0'.
+
+
+-Upgrade has removed interface 'phA_V'
+
+-Upgrade has removed interface 'phB_V'
+
+-Upgrade has removed interface 'phC_V'
+
+-Upgrade has added interface 'phA' (xilinx.com:signal:data:1.0)
+
+-Upgrade has added interface 'phB' (xilinx.com:signal:data:1.0)
+
+-Upgrade has added interface 'phC' (xilinx.com:signal:data:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'top_bd_vsi_control_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'phA_V'
+
+-Upgrade has removed port 'phB_V'
+
+-Upgrade has removed port 'phC_V'
+
+-Upgrade has added port 'phA'
+
+-Upgrade has added port 'phB'
+
+-Upgrade has added port 'phC'
+
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Tue Sep  5 19:38:57 2017
+| Host         : DESKTOP-Q08U40I running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'top_bd_adc_interface_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of top_bd_adc_interface_0_0 (PSC:lib3ph:adc_interface:1.0) from (Rev. 12) to (Rev. 13)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'top_bd_adc_interface_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'VA_sc'
+
+-Upgrade has removed port 'VB_sc'
+
+-Upgrade has removed port 'VC_sc'
+
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Wed Aug 30 19:24:15 2017
+| Host         : DESKTOP-Q08U40I running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'top_bd_adc_interface_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of top_bd_adc_interface_0_0 (PSC:lib3ph:adc_interface:1.0) from (Rev. 11) to (Rev. 12)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'top_bd_adc_interface_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'VA_sc'
+
+-Upgrade has added port 'VB_sc'
+
+-Upgrade has added port 'VC_sc'
+
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Wed Aug 30 18:27:37 2017
+| Host         : DESKTOP-Q08U40I running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'top_bd_fsm_controller_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of top_bd_fsm_controller_0_0 (PSC:lib3ph:fsm_controller:1.0) from (Rev. 3) to (Rev. 4)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'top_bd_fsm_controller_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'ADC_DONE'
+
+-Upgrade has added port 'ADC_START'
+
+-Upgrade has added port 'VSI_DONE'
+
+-Upgrade has added port 'VSI_START'
+
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Sun Aug 13 20:55:11 2017
+| Host         : DESKTOP-Q08U40I running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'top_bd_phase_generator_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of top_bd_phase_generator_0_0 (PSC:hls:phase_generator:1.0) from (Rev. 1708131928) to (Rev. 1708132053)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Sun Aug 13 19:33:08 2017
+| Host         : DESKTOP-Q08U40I running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'top_bd_phase_generator_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of top_bd_phase_generator_0_0 (PSC:hls:phase_generator:1.0) from (Rev. 1708021359) to (Rev. 1708131928)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Thu Aug 10 20:25:41 2017
+| Host         : DESKTOP-Q08U40I running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'top_bd_scope_3ph_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of top_bd_scope_3ph_0_0 (PSC:lib3ph:scope_3ph:1.1) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Thu Aug 10 19:34:23 2017
+| Host         : DESKTOP-Q08U40I running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'top_bd_scope_3ph_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of top_bd_scope_3ph_0_0 (PSC:lib3ph:scope_3ph:1.1) from (Rev. 1) to (Rev. 2)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'top_bd_scope_3ph_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'TRIGGER_SIG' width 16 differs from original width 12
+
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Thu Aug 10 19:34:22 2017
+| Host         : DESKTOP-Q08U40I running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'scope_3phdq_scope_3ph_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of scope_3phdq_scope_3ph_0_1 (PSC:lib3ph:scope_3ph:1.1) from (Rev. 1) to (Rev. 2)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'scope_3phdq_scope_3ph_0_1'. These changes may impact your design.
+
+
+-Upgraded port 'TRIGGER_SIG' width 16 differs from original width 12
+
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Wed Aug  9 10:42:07 2017
+| Host         : DESKTOP-Q08U40I running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'top_bd_scope_3phdq_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of top_bd_scope_3phdq_0_0 (PSC:lib3ph:scope_3phdq:1.0) from (Rev. 4) to (Rev. 5)
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'top_bd_scope_3phdq_0_0'.
+
+
+-Upgrade has added interface 'axi_aclk' (xilinx.com:signal:clock:1.0)
+
+-Upgrade has added interface 'axi_aresetn' (xilinx.com:signal:reset:1.0)
+
+

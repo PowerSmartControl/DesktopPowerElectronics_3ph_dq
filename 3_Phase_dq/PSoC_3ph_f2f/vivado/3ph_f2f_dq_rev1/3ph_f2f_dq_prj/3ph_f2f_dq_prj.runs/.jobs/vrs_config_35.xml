@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="top_bd_dq2alphaBeta2abc_0_0_synth_1" LaunchDir="D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/top_bd_dq2alphaBeta2abc_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="top_bd_current_ctrl_dq_0_1_synth_1" LaunchDir="D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/top_bd_current_ctrl_dq_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

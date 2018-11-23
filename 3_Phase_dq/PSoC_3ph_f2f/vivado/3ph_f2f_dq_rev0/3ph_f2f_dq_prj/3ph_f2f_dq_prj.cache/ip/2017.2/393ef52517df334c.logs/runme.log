@@ -1,0 +1,555 @@
+
+*** Running vivado
+    with args -log pll_pll_int_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source pll_pll_int_0_0.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source pll_pll_int_0_0.tcl -notrace
+Command: synth_design -top pll_pll_int_0_0 -part xc7z010clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010-clg400'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010-clg400'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 10204 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 323.715 ; gain = 79.637
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'pll_pll_int_0_0' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ip/pll_pll_int_0_0/synth/pll_pll_int_0_0.vhd:87]
+	Parameter C_S_AXI_AXILITES_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_AXILITES_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'pll_int' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int.vhd:12' bound to instance 'U0' of component 'pll_int' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ip/pll_pll_int_0_0/synth/pll_pll_int_0_0.vhd:156]
+INFO: [Synth 8-638] synthesizing module 'pll_int' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int.vhd:46]
+	Parameter C_S_AXI_AXILITES_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_AXILITES_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int.vhd:99]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int.vhd:102]
+INFO: [Synth 8-5534] Detected attribute (* use_dsp48 = "no" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int.vhd:125]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int.vhd:129]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int.vhd:146]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int.vhd:158]
+INFO: [Synth 8-5534] Detected attribute (* use_dsp48 = "no" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int.vhd:160]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int.vhd:163]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int.vhd:180]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int.vhd:191]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int.vhd:197]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int.vhd:202]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int.vhd:290]
+WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
+WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'pll_int_AXILiteS_s_axi' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int_AXILiteS_s_axi.vhd:12' bound to instance 'pll_int_AXILiteS_s_axi_U' of component 'pll_int_AXILiteS_s_axi' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int.vhd:342]
+INFO: [Synth 8-638] synthesizing module 'pll_int_AXILiteS_s_axi' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int_AXILiteS_s_axi.vhd:64]
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pll_int_AXILiteS_s_axi' (1#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int_AXILiteS_s_axi.vhd:64]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 16 - type: integer 
+	Parameter din1_WIDTH bound to: 16 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'pll_int_mul_mul_1bkb' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int_mul_mul_1bkb.vhd:36' bound to instance 'pll_int_mul_mul_1bkb_U0' of component 'pll_int_mul_mul_1bkb' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int.vhd:371]
+INFO: [Synth 8-638] synthesizing module 'pll_int_mul_mul_1bkb' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int_mul_mul_1bkb.vhd:49]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 16 - type: integer 
+	Parameter din1_WIDTH bound to: 16 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'pll_int_mul_mul_1bkb_DSP48_0' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int_mul_mul_1bkb.vhd:6' bound to instance 'pll_int_mul_mul_1bkb_DSP48_0_U' of component 'pll_int_mul_mul_1bkb_DSP48_0' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int_mul_mul_1bkb.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'pll_int_mul_mul_1bkb_DSP48_0' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int_mul_mul_1bkb.vhd:14]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int_mul_mul_1bkb.vhd:15]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int_mul_mul_1bkb.vhd:16]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int_mul_mul_1bkb.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'pll_int_mul_mul_1bkb_DSP48_0' (2#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int_mul_mul_1bkb.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'pll_int_mul_mul_1bkb' (3#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int_mul_mul_1bkb.vhd:49]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 16 - type: integer 
+	Parameter din1_WIDTH bound to: 16 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'pll_int_mul_mul_1bkb' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int_mul_mul_1bkb.vhd:36' bound to instance 'pll_int_mul_mul_1bkb_U1' of component 'pll_int_mul_mul_1bkb' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int.vhd:383]
+WARNING: [Synth 8-6014] Unused sequential element ap_block_state10_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int.vhd:610]
+WARNING: [Synth 8-6014] Unused sequential element ap_ready_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int.vhd:637]
+INFO: [Synth 8-256] done synthesizing module 'pll_int' (4#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'pll_pll_int_0_0' (5#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ip/pll_pll_int_0_0/synth/pll_pll_int_0_0.vhd:87]
+WARNING: [Synth 8-3331] design pll_int_AXILiteS_s_axi has unconnected port WDATA[31]
+WARNING: [Synth 8-3331] design pll_int_AXILiteS_s_axi has unconnected port WDATA[30]
+WARNING: [Synth 8-3331] design pll_int_AXILiteS_s_axi has unconnected port WDATA[29]
+WARNING: [Synth 8-3331] design pll_int_AXILiteS_s_axi has unconnected port WDATA[28]
+WARNING: [Synth 8-3331] design pll_int_AXILiteS_s_axi has unconnected port WDATA[27]
+WARNING: [Synth 8-3331] design pll_int_AXILiteS_s_axi has unconnected port WDATA[26]
+WARNING: [Synth 8-3331] design pll_int_AXILiteS_s_axi has unconnected port WDATA[25]
+WARNING: [Synth 8-3331] design pll_int_AXILiteS_s_axi has unconnected port WDATA[24]
+WARNING: [Synth 8-3331] design pll_int_AXILiteS_s_axi has unconnected port WDATA[23]
+WARNING: [Synth 8-3331] design pll_int_AXILiteS_s_axi has unconnected port WDATA[22]
+WARNING: [Synth 8-3331] design pll_int_AXILiteS_s_axi has unconnected port WDATA[21]
+WARNING: [Synth 8-3331] design pll_int_AXILiteS_s_axi has unconnected port WDATA[20]
+WARNING: [Synth 8-3331] design pll_int_AXILiteS_s_axi has unconnected port WDATA[19]
+WARNING: [Synth 8-3331] design pll_int_AXILiteS_s_axi has unconnected port WDATA[18]
+WARNING: [Synth 8-3331] design pll_int_AXILiteS_s_axi has unconnected port WDATA[17]
+WARNING: [Synth 8-3331] design pll_int_AXILiteS_s_axi has unconnected port WDATA[16]
+WARNING: [Synth 8-3331] design pll_int_AXILiteS_s_axi has unconnected port WSTRB[3]
+WARNING: [Synth 8-3331] design pll_int_AXILiteS_s_axi has unconnected port WSTRB[2]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 363.793 ; gain = 119.715
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 363.793 ; gain = 119.715
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ip/pll_pll_int_0_0/constraints/pll_int_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ip/pll_pll_int_0_0/constraints/pll_int_ooc.xdc] for cell 'U0'
+Parsing XDC File [D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/pll_pll_int_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/pll_pll_int_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.201 . Memory (MB): peak = 672.016 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 672.016 ; gain = 427.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 672.016 ; gain = 427.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/pll_pll_int_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 672.016 ; gain = 427.938
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'wstate_reg' in module 'pll_int_AXILiteS_s_axi'
+WARNING: [Synth 8-6014] Unused sequential element wstate_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int_AXILiteS_s_axi.vhd:113]
+INFO: [Synth 8-5544] ROM "ARREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "RVALID_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "BVALID" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "WREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "AWREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "wnext" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "wnext" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-4471] merging register 'w_integral_V_reg[15:0]' into 'p_Val2_16_reg_1129_reg[15:0]' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int.vhd:416]
+INFO: [Synth 8-4471] merging register 'y_integral_V_reg[15:0]' into 'p_Val2_5_reg_1039_reg[15:0]' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int.vhd:533]
+WARNING: [Synth 8-6014] Unused sequential element w_integral_V_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int.vhd:416]
+WARNING: [Synth 8-6014] Unused sequential element y_integral_V_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int.vhd:533]
+WARNING: [Synth 8-3936] Found unconnected internal register 'p_Val2_6_reg_1044_reg' and it is trimmed from '32' to '29' bits. [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int.vhd:444]
+WARNING: [Synth 8-3936] Found unconnected internal register 'p_Val2_1_reg_967_reg' and it is trimmed from '32' to '29' bits. [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int.vhd:459]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+WARNING: [Synth 8-6014] Unused sequential element wstate_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int_AXILiteS_s_axi.vhd:113]
+WARNING: [Synth 8-6014] Unused sequential element wstate_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int_AXILiteS_s_axi.vhd:113]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                             0001 |                              011
+*
+                  wridle |                             0010 |                              000
+                  wrdata |                             0100 |                              001
+                  wrresp |                             1000 |                              010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wstate_reg' using encoding 'one-hot' in module 'pll_int_AXILiteS_s_axi'
+WARNING: [Synth 8-6014] Unused sequential element wstate_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/pll/ipshared/75da/hdl/vhdl/pll_int_AXILiteS_s_axi.vhd:113]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 672.016 ; gain = 427.938
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     17 Bit       Adders := 2     
+	   2 Input     16 Bit       Adders := 4     
++---XORs : 
+	   2 Input      1 Bit         XORs := 19    
++---Registers : 
+	               32 Bit    Registers := 3     
+	               29 Bit    Registers := 2     
+	               16 Bit    Registers := 11    
+	               10 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 28    
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 12    
+	   2 Input     10 Bit        Muxes := 1     
+	  11 Input     10 Bit        Muxes := 1     
+	   7 Input      4 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module pll_int_AXILiteS_s_axi 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
+	                6 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+	   7 Input      4 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module pll_int 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     17 Bit       Adders := 2     
+	   2 Input     16 Bit       Adders := 4     
++---XORs : 
+	   2 Input      1 Bit         XORs := 19    
++---Registers : 
+	               32 Bit    Registers := 2     
+	               29 Bit    Registers := 2     
+	               16 Bit    Registers := 9     
+	               10 Bit    Registers := 1     
+	                1 Bit    Registers := 27    
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 10    
+	   2 Input     10 Bit        Muxes := 1     
+	  11 Input     10 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP pll_int_mul_mul_1bkb_U0/pll_int_mul_mul_1bkb_DSP48_0_U/in00, operation Mode is: A*B.
+DSP Report: operator pll_int_mul_mul_1bkb_U0/pll_int_mul_mul_1bkb_DSP48_0_U/in00 is absorbed into DSP pll_int_mul_mul_1bkb_U0/pll_int_mul_mul_1bkb_DSP48_0_U/in00.
+DSP Report: Generating DSP pll_int_mul_mul_1bkb_U1/pll_int_mul_mul_1bkb_DSP48_0_U/in00, operation Mode is: A*B.
+DSP Report: operator pll_int_mul_mul_1bkb_U1/pll_int_mul_mul_1bkb_DSP48_0_U/in00 is absorbed into DSP pll_int_mul_mul_1bkb_U1/pll_int_mul_mul_1bkb_DSP48_0_U/in00.
+WARNING: [Synth 8-3331] design pll_int has unconnected port s_axi_AXILiteS_WDATA[31]
+WARNING: [Synth 8-3331] design pll_int has unconnected port s_axi_AXILiteS_WDATA[30]
+WARNING: [Synth 8-3331] design pll_int has unconnected port s_axi_AXILiteS_WDATA[29]
+WARNING: [Synth 8-3331] design pll_int has unconnected port s_axi_AXILiteS_WDATA[28]
+WARNING: [Synth 8-3331] design pll_int has unconnected port s_axi_AXILiteS_WDATA[27]
+WARNING: [Synth 8-3331] design pll_int has unconnected port s_axi_AXILiteS_WDATA[26]
+WARNING: [Synth 8-3331] design pll_int has unconnected port s_axi_AXILiteS_WDATA[25]
+WARNING: [Synth 8-3331] design pll_int has unconnected port s_axi_AXILiteS_WDATA[24]
+WARNING: [Synth 8-3331] design pll_int has unconnected port s_axi_AXILiteS_WDATA[23]
+WARNING: [Synth 8-3331] design pll_int has unconnected port s_axi_AXILiteS_WDATA[22]
+WARNING: [Synth 8-3331] design pll_int has unconnected port s_axi_AXILiteS_WDATA[21]
+WARNING: [Synth 8-3331] design pll_int has unconnected port s_axi_AXILiteS_WDATA[20]
+WARNING: [Synth 8-3331] design pll_int has unconnected port s_axi_AXILiteS_WDATA[19]
+WARNING: [Synth 8-3331] design pll_int has unconnected port s_axi_AXILiteS_WDATA[18]
+WARNING: [Synth 8-3331] design pll_int has unconnected port s_axi_AXILiteS_WDATA[17]
+WARNING: [Synth 8-3331] design pll_int has unconnected port s_axi_AXILiteS_WDATA[16]
+WARNING: [Synth 8-3331] design pll_int has unconnected port s_axi_AXILiteS_WSTRB[3]
+WARNING: [Synth 8-3331] design pll_int has unconnected port s_axi_AXILiteS_WSTRB[2]
+INFO: [Synth 8-3886] merging instance 'U0/p_Val2_s_reg_947_reg[11]' (FDE) to 'U0/tmp_24_reg_952_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/newsignbit_reg_984_reg[0]' (FDE) to 'U0/p_Val2_3_reg_978_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/p_Val2_4_4_reg_957_reg[11]' (FDE) to 'U0/tmp_29_reg_962_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/newsignbit_1_reg_1061_reg[0]' (FDE) to 'U0/p_Val2_8_reg_1055_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[16]' (FDE) to 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[17]' (FDE) to 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[18]' (FDE) to 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[19]' (FDE) to 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[20]' (FDE) to 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[21]' (FDE) to 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[22]' (FDE) to 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[23]' (FDE) to 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[24]' (FDE) to 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[25]' (FDE) to 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[26]' (FDE) to 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[27]' (FDE) to 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[28]' (FDE) to 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[29]' (FDE) to 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[30]' (FDE) to 'U0/pll_int_AXILiteS_s_axi_U/rdata_data_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\pll_int_AXILiteS_s_axi_U/rdata_data_reg[31] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/\pll_int_AXILiteS_s_axi_U/rstate_reg[2] )
+WARNING: [Synth 8-3332] Sequential element (pll_int_AXILiteS_s_axi_U/rstate_reg[2]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (pll_int_AXILiteS_s_axi_U/rdata_data_reg[31]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_s_reg_947_reg[10]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_s_reg_947_reg[9]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_s_reg_947_reg[8]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_s_reg_947_reg[7]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_s_reg_947_reg[6]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_s_reg_947_reg[5]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_s_reg_947_reg[4]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_s_reg_947_reg[3]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_s_reg_947_reg[2]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_s_reg_947_reg[1]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_s_reg_947_reg[0]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_1_reg_967_reg[27]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_1_reg_967_reg[26]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_1_reg_967_reg[25]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_1_reg_967_reg[24]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_1_reg_967_reg[23]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_1_reg_967_reg[22]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_1_reg_967_reg[21]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_1_reg_967_reg[20]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_1_reg_967_reg[19]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_1_reg_967_reg[18]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_1_reg_967_reg[17]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_1_reg_967_reg[16]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_1_reg_967_reg[15]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_1_reg_967_reg[14]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_1_reg_967_reg[13]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_1_reg_967_reg[12]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_1_reg_967_reg[11]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_1_reg_967_reg[10]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_1_reg_967_reg[9]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_1_reg_967_reg[8]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_1_reg_967_reg[7]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_1_reg_967_reg[6]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_1_reg_967_reg[5]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_1_reg_967_reg[4]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_1_reg_967_reg[3]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_1_reg_967_reg[2]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_1_reg_967_reg[1]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_1_reg_967_reg[0]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_4_4_reg_957_reg[10]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_4_4_reg_957_reg[9]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_4_4_reg_957_reg[8]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_4_4_reg_957_reg[7]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_4_4_reg_957_reg[6]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_4_4_reg_957_reg[5]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_4_4_reg_957_reg[4]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_4_4_reg_957_reg[3]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_4_4_reg_957_reg[2]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_4_4_reg_957_reg[1]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_4_4_reg_957_reg[0]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_6_reg_1044_reg[27]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_6_reg_1044_reg[26]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_6_reg_1044_reg[25]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_6_reg_1044_reg[24]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_6_reg_1044_reg[23]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_6_reg_1044_reg[22]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_6_reg_1044_reg[21]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_6_reg_1044_reg[20]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_6_reg_1044_reg[19]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_6_reg_1044_reg[18]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_6_reg_1044_reg[17]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_6_reg_1044_reg[16]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_6_reg_1044_reg[15]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_6_reg_1044_reg[14]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_6_reg_1044_reg[13]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_6_reg_1044_reg[12]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_6_reg_1044_reg[11]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_6_reg_1044_reg[10]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_6_reg_1044_reg[9]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_6_reg_1044_reg[8]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_6_reg_1044_reg[7]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_6_reg_1044_reg[6]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_6_reg_1044_reg[5]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_6_reg_1044_reg[4]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_6_reg_1044_reg[3]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_6_reg_1044_reg[2]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_6_reg_1044_reg[1]) is unused and will be removed from module pll_int.
+WARNING: [Synth 8-3332] Sequential element (p_Val2_6_reg_1044_reg[0]) is unused and will be removed from module pll_int.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 672.016 ; gain = 427.938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++-----------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name                  | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-----------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|pll_int_mul_mul_1bkb_DSP48_0 | A*B         | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|pll_int_mul_mul_1bkb_DSP48_0 | A*B         | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++-----------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 676.602 ; gain = 432.523
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 676.602 ; gain = 432.523
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 695.887 ; gain = 451.809
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 695.887 ; gain = 451.809
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 695.887 ; gain = 451.809
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 695.887 ; gain = 451.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 695.887 ; gain = 451.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 695.887 ; gain = 451.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 695.887 ; gain = 451.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |CARRY4  |    38|
+|2     |DSP48E1 |     2|
+|3     |LUT1    |    64|
+|4     |LUT2    |    48|
+|5     |LUT3    |    63|
+|6     |LUT4    |    25|
+|7     |LUT5    |    68|
+|8     |LUT6    |    56|
+|9     |FDRE    |   224|
+|10    |FDSE    |    58|
++------+--------+------+
+
+Report Instance Areas: 
++------+-------------------------------------+-------------------------------+------+
+|      |Instance                             |Module                         |Cells |
++------+-------------------------------------+-------------------------------+------+
+|1     |top                                  |                               |   646|
+|2     |  U0                                 |pll_int                        |   646|
+|3     |    pll_int_AXILiteS_s_axi_U         |pll_int_AXILiteS_s_axi         |   124|
+|4     |    pll_int_mul_mul_1bkb_U0          |pll_int_mul_mul_1bkb           |     1|
+|5     |      pll_int_mul_mul_1bkb_DSP48_0_U |pll_int_mul_mul_1bkb_DSP48_0_1 |     1|
+|6     |    pll_int_mul_mul_1bkb_U1          |pll_int_mul_mul_1bkb_0         |     1|
+|7     |      pll_int_mul_mul_1bkb_DSP48_0_U |pll_int_mul_mul_1bkb_DSP48_0   |     1|
++------+-------------------------------------+-------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 695.887 ; gain = 451.809
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 106 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:29 . Memory (MB): peak = 695.887 ; gain = 143.586
+Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 695.887 ; gain = 451.809
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 40 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+74 Infos, 128 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 695.887 ; gain = 453.441
+INFO: [Common 17-1381] The checkpoint 'D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/pll_pll_int_0_0_synth_1/pll_pll_int_0_0.dcp' has been generated.

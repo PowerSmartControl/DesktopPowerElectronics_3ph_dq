@@ -1,0 +1,32 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port axi_aresetn -pg 1 -y 300 -defaultsOSRD
+preplace port axi_aclk -pg 1 -y 280 -defaultsOSRD
+preplace port scopeCtrl_AXI -pg 1 -y 40 -defaultsOSRD
+preplace port bram_AXI -pg 1 -y 260 -defaultsOSRD
+preplace port ACQ_DONE -pg 1 -y 340 -defaultsOSRD
+preplace portBus trigger_sig -pg 1 -y 60 -defaultsOSRD
+preplace portBus din -pg 1 -y 170 -defaultsOSRD
+preplace inst scope_3ph_0 -pg 1 -lvl 2 -y 70 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 2 -y 230 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 3 -y 200 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 1 -y 280 -defaultsOSRD
+preplace netloc S_AXI_1 1 0 1 NJ
+preplace netloc axi_bram_ctrl_0_bram_clk_a 1 1 2 340J 180 630
+preplace netloc axi_bram_ctrl_0_bram_addr_a 1 1 1 350J
+preplace netloc scope_3ph_0_WE 1 2 1 640
+preplace netloc dina_1 1 0 3 NJ 170 NJ 170 NJ
+preplace netloc TRIGGER_SIG_1 1 0 2 NJ 60 NJ
+preplace netloc S00_AXI_1 1 0 2 NJ 40 NJ
+preplace netloc scope_3ph_0_ADDR 1 2 1 650
+preplace netloc scope_3ph_0_ACQ_DONE 1 2 2 630J 60 850J
+preplace netloc s00_axi_aclk_1 1 0 3 30 150 340 150 N
+preplace netloc s00_axi_aresetn_1 1 0 2 20 100 NJ
+preplace netloc blk_mem_gen_0_doutb 1 1 2 NJ 300 640
+preplace netloc axi_bram_ctrl_0_bram_en_a 1 1 2 340J 290 N
+preplace netloc xlslice_0_Dout 1 2 1 N
+levelinfo -pg 1 0 190 490 750 870 -top -10 -bot 370
+",
+}
+0

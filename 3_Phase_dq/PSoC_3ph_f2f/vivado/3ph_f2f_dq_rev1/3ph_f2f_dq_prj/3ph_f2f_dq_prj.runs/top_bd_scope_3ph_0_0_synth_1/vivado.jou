@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Fri Sep 29 19:12:25 2017
+# Process ID: 15460
+# Current directory: D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/top_bd_scope_3ph_0_0_synth_1
+# Command line: vivado.exe -log top_bd_scope_3ph_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_bd_scope_3ph_0_0.tcl
+# Log file: D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/top_bd_scope_3ph_0_0_synth_1/top_bd_scope_3ph_0_0.vds
+# Journal file: D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/top_bd_scope_3ph_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source top_bd_scope_3ph_0_0.tcl -notrace

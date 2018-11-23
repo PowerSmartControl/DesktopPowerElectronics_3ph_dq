@@ -1,0 +1,563 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Mon Oct 16 21:24:25 2017
+# Process ID: 2800
+# Current directory: D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/top_bd_current_ctrl_dq_0_1_synth_1
+# Command line: vivado.exe -log top_bd_current_ctrl_dq_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_bd_current_ctrl_dq_0_1.tcl
+# Log file: D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/top_bd_current_ctrl_dq_0_1_synth_1/top_bd_current_ctrl_dq_0_1.vds
+# Journal file: D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/top_bd_current_ctrl_dq_0_1_synth_1\vivado.jou
+#-----------------------------------------------------------
+source top_bd_current_ctrl_dq_0_1.tcl -notrace
+Command: synth_design -top top_bd_current_ctrl_dq_0_1 -part xc7z010clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010-clg400'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010-clg400'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 8904 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 332.648 ; gain = 82.063
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top_bd_current_ctrl_dq_0_1' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ip/top_bd_current_ctrl_dq_0_1/synth/top_bd_current_ctrl_dq_0_1.vhd:90]
+INFO: [Synth 8-3491] module 'current_ctrl_dq' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:12' bound to instance 'U0' of component 'current_ctrl_dq' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ip/top_bd_current_ctrl_dq_0_1/synth/top_bd_current_ctrl_dq_0_1.vhd:165]
+INFO: [Synth 8-638] synthesizing module 'current_ctrl_dq' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:49]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:154]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:157]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:197]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:199]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:201]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:205]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:209]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:211]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:213]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:225]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:228]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:244]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:248]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:262]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:267]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:271]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:274]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:278]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:281]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:285]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:288]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:292]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:297]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:316]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:321]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:326]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:329]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:334]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:343]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:345]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:347]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:349]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:353]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:460]
+INFO: [Synth 8-3491] module 'current_ctrl_dq_AXILiteS_s_axi' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq_AXILiteS_s_axi.vhd:12' bound to instance 'current_ctrl_dq_AXILiteS_s_axi_U' of component 'current_ctrl_dq_AXILiteS_s_axi' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:553]
+INFO: [Synth 8-638] synthesizing module 'current_ctrl_dq_AXILiteS_s_axi' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq_AXILiteS_s_axi.vhd:83]
+INFO: [Synth 8-256] done synthesizing module 'current_ctrl_dq_AXILiteS_s_axi' (1#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq_AXILiteS_s_axi.vhd:83]
+INFO: [Synth 8-3491] module 'current_ctrl_dq_fbkb' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq_fbkb.vhd:11' bound to instance 'current_ctrl_dq_fbkb_U0' of component 'current_ctrl_dq_fbkb' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:587]
+INFO: [Synth 8-638] synthesizing module 'current_ctrl_dq_fbkb' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq_fbkb.vhd:30]
+INFO: [Synth 8-3491] module 'current_ctrl_dq_ap_faddfsub_3_full_dsp_32' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/ip/current_ctrl_dq_ap_faddfsub_3_full_dsp_32.vhd:59' bound to instance 'current_ctrl_dq_ap_faddfsub_3_full_dsp_32_u' of component 'current_ctrl_dq_ap_faddfsub_3_full_dsp_32' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq_fbkb.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'current_ctrl_dq_ap_faddfsub_3_full_dsp_32' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/ip/current_ctrl_dq_ap_faddfsub_3_full_dsp_32.vhd:74]
+INFO: [Synth 8-3491] module 'floating_point_v7_1_4' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/4a02/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_4' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/ip/current_ctrl_dq_ap_faddfsub_3_full_dsp_32.vhd:202]
+INFO: [Synth 8-256] done synthesizing module 'current_ctrl_dq_ap_faddfsub_3_full_dsp_32' (19#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/ip/current_ctrl_dq_ap_faddfsub_3_full_dsp_32.vhd:74]
+INFO: [Synth 8-256] done synthesizing module 'current_ctrl_dq_fbkb' (20#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq_fbkb.vhd:30]
+INFO: [Synth 8-3491] module 'current_ctrl_dq_fcud' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq_fcud.vhd:11' bound to instance 'current_ctrl_dq_fcud_U1' of component 'current_ctrl_dq_fcud' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:603]
+INFO: [Synth 8-638] synthesizing module 'current_ctrl_dq_fcud' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq_fcud.vhd:29]
+INFO: [Synth 8-3491] module 'current_ctrl_dq_ap_fmul_2_max_dsp_32' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/ip/current_ctrl_dq_ap_fmul_2_max_dsp_32.vhd:59' bound to instance 'current_ctrl_dq_ap_fmul_2_max_dsp_32_u' of component 'current_ctrl_dq_ap_fmul_2_max_dsp_32' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq_fcud.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'current_ctrl_dq_ap_fmul_2_max_dsp_32' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/ip/current_ctrl_dq_ap_fmul_2_max_dsp_32.vhd:72]
+INFO: [Synth 8-3491] module 'floating_point_v7_1_4' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/4a02/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_4' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/ip/current_ctrl_dq_ap_fmul_2_max_dsp_32.vhd:197]
+INFO: [Synth 8-256] done synthesizing module 'current_ctrl_dq_ap_fmul_2_max_dsp_32' (28#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/ip/current_ctrl_dq_ap_fmul_2_max_dsp_32.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'current_ctrl_dq_fcud' (29#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq_fcud.vhd:29]
+INFO: [Synth 8-3491] module 'current_ctrl_dq_fcud' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq_fcud.vhd:11' bound to instance 'current_ctrl_dq_fcud_U2' of component 'current_ctrl_dq_fcud' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:618]
+INFO: [Synth 8-3491] module 'current_ctrl_dq_fdEe' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq_fdEe.vhd:11' bound to instance 'current_ctrl_dq_fdEe_U3' of component 'current_ctrl_dq_fdEe' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:633]
+INFO: [Synth 8-638] synthesizing module 'current_ctrl_dq_fdEe' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq_fdEe.vhd:27]
+INFO: [Synth 8-3491] module 'current_ctrl_dq_ap_fcmp_0_no_dsp_32' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/ip/current_ctrl_dq_ap_fcmp_0_no_dsp_32.vhd:59' bound to instance 'current_ctrl_dq_ap_fcmp_0_no_dsp_32_u' of component 'current_ctrl_dq_ap_fcmp_0_no_dsp_32' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq_fdEe.vhd:69]
+INFO: [Synth 8-638] synthesizing module 'current_ctrl_dq_ap_fcmp_0_no_dsp_32' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/ip/current_ctrl_dq_ap_fcmp_0_no_dsp_32.vhd:72]
+INFO: [Synth 8-3491] module 'floating_point_v7_1_4' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/4a02/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_4' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/ip/current_ctrl_dq_ap_fcmp_0_no_dsp_32.vhd:197]
+INFO: [Synth 8-256] done synthesizing module 'current_ctrl_dq_ap_fcmp_0_no_dsp_32' (33#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/ip/current_ctrl_dq_ap_fcmp_0_no_dsp_32.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'current_ctrl_dq_fdEe' (34#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq_fdEe.vhd:27]
+INFO: [Synth 8-3491] module 'current_ctrl_dq_fdEe' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq_fdEe.vhd:11' bound to instance 'current_ctrl_dq_fdEe_U4' of component 'current_ctrl_dq_fdEe' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:646]
+WARNING: [Synth 8-6014] Unused sequential element ap_block_state46_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:1163]
+WARNING: [Synth 8-6014] Unused sequential element iD_0_ack_out_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:793]
+WARNING: [Synth 8-6014] Unused sequential element iQ_0_ack_out_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:801]
+WARNING: [Synth 8-6014] Unused sequential element ap_ready_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:1190]
+WARNING: [Synth 8-6014] Unused sequential element dQ_scope_V_1_vld_in_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:785]
+WARNING: [Synth 8-6014] Unused sequential element notlhs1_fu_701_p2_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:1489]
+WARNING: [Synth 8-6014] Unused sequential element notlhs_fu_353_p2_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:1496]
+WARNING: [Synth 8-6014] Unused sequential element notrhs1_fu_707_p2_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:1497]
+WARNING: [Synth 8-6014] Unused sequential element notrhs6_fu_569_p2_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:1502]
+INFO: [Synth 8-256] done synthesizing module 'current_ctrl_dq' (35#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'top_bd_current_ctrl_dq_0_1' (36#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ip/top_bd_current_ctrl_dq_0_1/synth/top_bd_current_ctrl_dq_0_1.vhd:90]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized9 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized9 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized9 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized9 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized9 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized77 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized77 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized77 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized77 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized77 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized75 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized75 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized75 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized75 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized75 has unconnected port SINIT
+WARNING: [Synth 8-3331] design compare_eq_im__parameterized3 has unconnected port CARRYS_OUT[0]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized11 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized11 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized11 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized11 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized11 has unconnected port SINIT
+WARNING: [Synth 8-3331] design compare_ne_im has unconnected port CARRYS_OUT[0]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized25 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized25 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized25 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized25 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized25 has unconnected port SINIT
+WARNING: [Synth 8-3331] design compare_eq_im__parameterized2 has unconnected port CARRYS_OUT[0]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized3 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized3 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized3 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized3 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized3 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized73 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized73 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized73 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized73 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized73 has unconnected port SINIT
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port m_axis_result_tuser[0]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port m_axis_result_tlast
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port aclken
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port aresetn
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_a_tuser[0]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_a_tlast
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_b_tuser[0]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_b_tlast
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tvalid
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[31]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[30]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[29]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[28]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[27]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[26]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[25]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[24]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[23]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[22]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[21]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[20]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[19]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[18]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[17]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[16]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[15]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[14]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[13]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[12]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[11]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[10]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[9]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[8]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[7]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[6]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[5]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[4]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[3]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[2]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[1]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tdata[0]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tuser[0]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_c_tlast
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_operation_tdata[7]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_operation_tdata[6]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_operation_tdata[2]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_operation_tdata[1]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_operation_tdata[0]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_operation_tuser[0]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port s_axis_operation_tlast
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized3 has unconnected port m_axis_result_tready
+WARNING: [Synth 8-3331] design flt_dec_op_lat has unconnected port DEC_OP_STATE[11]
+WARNING: [Synth 8-3331] design flt_dec_op_lat has unconnected port DEC_OP_STATE[10]
+WARNING: [Synth 8-3331] design flt_dec_op_lat has unconnected port DEC_OP_STATE[9]
+WARNING: [Synth 8-3331] design flt_dec_op_lat has unconnected port DEC_OP_STATE[8]
+WARNING: [Synth 8-3331] design flt_dec_op_lat has unconnected port DIVIDE_BY_ZERO_IN
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized29 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized29 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized29 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized29 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized29 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized72 has unconnected port CLK
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 430.840 ; gain = 180.254
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 430.840 ; gain = 180.254
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 221 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ip/top_bd_current_ctrl_dq_0_1/constraints/current_ctrl_dq_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ip/top_bd_current_ctrl_dq_0_1/constraints/current_ctrl_dq_ooc.xdc] for cell 'U0'
+Parsing XDC File [D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/top_bd_current_ctrl_dq_0_1_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/top_bd_current_ctrl_dq_0_1_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 3 instances were transformed.
+  FDE => FDRE: 3 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.054 . Memory (MB): peak = 664.672 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 664.672 ; gain = 414.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 664.672 ; gain = 414.086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/top_bd_current_ctrl_dq_0_1_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 664.672 ; gain = 414.086
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'wstate_reg' in module 'current_ctrl_dq_AXILiteS_s_axi'
+WARNING: [Synth 8-6014] Unused sequential element wstate_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq_AXILiteS_s_axi.vhd:147]
+INFO: [Synth 8-5544] ROM "ARREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "RVALID_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "BVALID" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "WREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "AWREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "wnext" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "wnext" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_over_int" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ip_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_over_int" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ip_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "det_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "state_int_up" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "op_tdata" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-5544] ROM "tmp_4_fu_382_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "notlhs8_fu_615_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs8_fu_621_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs4_fu_753_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs4_fu_759_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs_fu_359_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs6_fu_563_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs2_fu_431_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs2_fu_437_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs3_fu_449_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs3_fu_455_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs5_fu_484_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs5_fu_490_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "tmp_4_fu_382_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "notlhs8_fu_615_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs8_fu_621_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs4_fu_753_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs4_fu_759_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs_fu_359_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs6_fu_563_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs2_fu_431_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs2_fu_437_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs3_fu_449_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs3_fu_455_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs5_fu_484_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs5_fu_490_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "p_Val2_4_fu_1101_p3" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "p_Val2_9_fu_1118_p3" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "grp_fu_257_opcode" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "p_Val2_2_fu_1010_p3" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "p_Val2_7_fu_1085_p3" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sat_d_V" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "grp_fu_275_opcode" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element wstate_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq_AXILiteS_s_axi.vhd:147]
+WARNING: [Synth 8-6014] Unused sequential element wstate_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq_AXILiteS_s_axi.vhd:147]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                             0001 |                              011
+*
+                  wridle |                             0010 |                              000
+                  wrdata |                             0100 |                              001
+                  wrresp |                             1000 |                              010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wstate_reg' using encoding 'one-hot' in module 'current_ctrl_dq_AXILiteS_s_axi'
+WARNING: [Synth 8-6014] Unused sequential element wstate_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2ba0/hdl/vhdl/current_ctrl_dq_AXILiteS_s_axi.vhd:147]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 664.672 ; gain = 414.086
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'U0/current_ctrl_dq_fbkb_U0/current_ctrl_dq_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'U0/current_ctrl_dq_fbkb_U0/current_ctrl_dq_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'U0/current_ctrl_dq_fbkb_U0/current_ctrl_dq_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'U0/current_ctrl_dq_fbkb_U0/current_ctrl_dq_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'U0/current_ctrl_dq_fbkb_U0/current_ctrl_dq_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/SUB_DELAY' (delay__parameterized0) to 'U0/current_ctrl_dq_fbkb_U0/current_ctrl_dq_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/SUB_ADD_IP_DELAY'
+INFO: [Synth 8-223] decloning instance 'current_ctrl_dq_fcud:/current_ctrl_dq_ap_fmul_2_max_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'current_ctrl_dq_fcud:/current_ctrl_dq_ap_fmul_2_max_dsp_32_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'current_ctrl_dq_fcud:/current_ctrl_dq_ap_fmul_2_max_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'current_ctrl_dq_fcud:/current_ctrl_dq_ap_fmul_2_max_dsp_32_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'current_ctrl_dq_fdEe:/current_ctrl_dq_ap_fcmp_0_no_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'current_ctrl_dq_fdEe:/current_ctrl_dq_ap_fcmp_0_no_dsp_32_u/U0/i_synth/DELAY_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'current_ctrl_dq_fdEe:/current_ctrl_dq_ap_fcmp_0_no_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'current_ctrl_dq_fdEe:/current_ctrl_dq_ap_fcmp_0_no_dsp_32_u/U0/i_synth/DELAY_UNDERFLOW'
+INFO: [Synth 8-223] decloning instance 'current_ctrl_dq_fdEe:/current_ctrl_dq_ap_fcmp_0_no_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'current_ctrl_dq_fdEe:/current_ctrl_dq_ap_fcmp_0_no_dsp_32_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'current_ctrl_dq_fdEe:/current_ctrl_dq_ap_fcmp_0_no_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'current_ctrl_dq_fdEe:/current_ctrl_dq_ap_fcmp_0_no_dsp_32_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/exp_over_int" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/ip_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs2_fu_437_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs2_fu_431_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs3_fu_455_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs3_fu_449_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs5_fu_490_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs5_fu_484_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs_fu_359_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs6_fu_563_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs8_fu_621_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs8_fu_615_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs4_fu_759_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs4_fu_753_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3886] merging instance 'U0/current_ctrl_dq_fbkb_U0/current_ctrl_dq_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/NOT_LOW_LATENCY_NORM_DIST.NORM_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[8]' (FDE) to 'U0/current_ctrl_dq_fbkb_U0/current_ctrl_dq_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/NOT_LOW_LATENCY_NORM_DIST.NORM_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/sh_assign_2_reg_1393_reg[8]' (FDE) to 'U0/isNeg_1_reg_1398_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_5_i_i_i1_reg_1404_reg[0]' (FDE) to 'U0/sh_assign_2_reg_1393_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/sh_assign_reg_1367_reg[8]' (FDE) to 'U0/isNeg_reg_1372_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_5_i_i_i_reg_1378_reg[0]' (FDE) to 'U0/sh_assign_reg_1367_reg[0]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/\current_ctrl_dq_AXILiteS_s_axi_U/rstate_reg[2] )
+WARNING: [Synth 8-3332] Sequential element (current_ctrl_dq_AXILiteS_s_axi_U/rstate_reg[2]) is unused and will be removed from module current_ctrl_dq.
+INFO: [Synth 8-3332] Sequential element (i_nd_to_rdy/opt_has_pipe.i_pipe[2].pipe_reg[2][0]) is unused and will be removed from module floating_point_v7_1_4_viv.
+INFO: [Synth 8-3332] Sequential element (i_nd_to_rdy/opt_has_pipe.i_pipe[3].pipe_reg[3][0]) is unused and will be removed from module floating_point_v7_1_4_viv.
+INFO: [Synth 8-3332] Sequential element (i_nd_to_rdy/opt_has_pipe.i_pipe[2].pipe_reg[2][0]) is unused and will be removed from module floating_point_v7_1_4_viv__parameterized1__1.
+INFO: [Synth 8-3332] Sequential element (i_nd_to_rdy/opt_has_pipe.i_pipe[2].pipe_reg[2][0]) is unused and will be removed from module floating_point_v7_1_4_viv__parameterized1.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 664.672 ; gain = 414.086
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 741.645 ; gain = 491.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 760.805 ; gain = 510.219
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:44 ; elapsed = 00:00:46 . Memory (MB): peak = 772.328 ; gain = 521.742
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5365] Flop y_q_reg[31] is being inverted and renamed to y_q_reg[31]_inv.
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 772.328 ; gain = 521.742
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 772.328 ; gain = 521.742
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 772.328 ; gain = 521.742
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 772.328 ; gain = 521.742
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 772.328 ; gain = 521.742
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 772.328 ; gain = 521.742
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |CARRY4    |     3|
+|2     |DSP48E1   |     1|
+|3     |DSP48E1_1 |     1|
+|4     |DSP48E1_2 |     2|
+|5     |DSP48E1_3 |     2|
+|6     |DSP48E1_4 |     2|
+|7     |LUT1      |    21|
+|8     |LUT2      |    72|
+|9     |LUT3      |   555|
+|10    |LUT4      |   216|
+|11    |LUT5      |   541|
+|12    |LUT6      |   425|
+|13    |MUXCY     |   174|
+|14    |XORCY     |    33|
+|15    |FDE       |     3|
+|16    |FDRE      |  1767|
+|17    |FDSE      |     9|
++------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 772.328 ; gain = 521.742
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 259 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:29 ; elapsed = 00:00:41 . Memory (MB): peak = 772.328 ; gain = 287.910
+Synthesis Optimization Complete : Time (s): cpu = 00:00:46 ; elapsed = 00:00:48 . Memory (MB): peak = 772.328 ; gain = 521.742
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 221 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 51 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 48 instances
+  FDE => FDRE: 3 instances
+
+193 Infos, 114 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 772.328 ; gain = 526.379
+INFO: [Common 17-1381] The checkpoint 'D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/top_bd_current_ctrl_dq_0_1_synth_1/top_bd_current_ctrl_dq_0_1.dcp' has been generated.
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ip/top_bd_current_ctrl_dq_0_1/top_bd_current_ctrl_dq_0_1.xci
+INFO: [Coretcl 2-1174] Renamed 173 cell refs.
+INFO: [Common 17-1381] The checkpoint 'D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev1/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/top_bd_current_ctrl_dq_0_1_synth_1/top_bd_current_ctrl_dq_0_1.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 772.328 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 16 21:25:22 2017...

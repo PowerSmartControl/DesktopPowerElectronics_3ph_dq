@@ -1,0 +1,78 @@
+================================================================
+  Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC
+  Version 2017.2
+  Build 1909853 on Thu Jun 15 18:55:24 MDT 2017
+  Copyright (C) 1986-2017 Xilinx, Inc. All Rights Reserved.
+================================================================
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado_HLS/2017.2/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'ASUS-PSC' on host 'desktop-q08u40i' (Windows NT_amd64 version 6.2) on Fri Sep 15 20:31:41 +0200 2017
+INFO: [HLS 200-10] In directory 'D:/Projects/PSoC_3ph_f2f/hls/phase_generator_fp'
+INFO: [HLS 200-10] Opening project 'D:/Projects/PSoC_3ph_f2f/hls/phase_generator_fp/phase_generator_fp_prj'.
+INFO: [HLS 200-10] Adding design file './src/phase_generator_fp.cpp' to the project
+INFO: [HLS 200-10] Adding design file './src/phase_generator_fp.h' to the project
+INFO: [HLS 200-10] Adding test bench file './src/tb_phase_generator_fp.cpp' to the project
+INFO: [HLS 200-10] Opening solution 'D:/Projects/PSoC_3ph_f2f/hls/phase_generator_fp/phase_generator_fp_prj/sol_synth'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z010clg400-1'
+INFO: [HLS 200-10] Analyzing design file './src/phase_generator_fp.cpp' ... 
+INFO: [HLS 200-10] Validating synthesis directives ...
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 98.828 ; gain = 49.336
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:02 ; elapsed = 00:00:50 . Memory (MB): peak = 98.848 ; gain = 49.355
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:20 ; elapsed = 00:01:22 . Memory (MB): peak = 968.031 ; gain = 918.539
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:22 ; elapsed = 00:01:25 . Memory (MB): peak = 968.031 ; gain = 918.539
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (./src/phase_generator_fp.cpp:38:21) to (./src/phase_generator_fp.cpp:76:1) in function 'look_up_value'... converting 8 basic blocks.
+INFO: [XFORM 203-602] Inlining function 'look_up_value' into 'phase_generator_fp' (./src/phase_generator_fp.cpp:24) automatically.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:25 ; elapsed = 00:01:27 . Memory (MB): peak = 1005.500 ; gain = 956.008
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:25 ; elapsed = 00:01:28 . Memory (MB): peak = 1005.500 ; gain = 956.008
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'phase_generator_fp' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Implementing module 'phase_generator_fp' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'phase_generator_fp'.
+INFO: [SCHED 204-61] Pipelining result: Target II: 1, Final II: 1, Depth: 4.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 87.959 seconds; current allocated memory: 881.138 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.49 seconds; current allocated memory: 881.546 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'phase_generator_fp' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'phase_generator_fp/incr_V' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'phase_generator_fp/a' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 'a' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'phase_generator_fp/b' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 'b' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'phase_generator_fp/c' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 'c' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on function 'phase_generator_fp' to 'ap_ctrl_hs'.
+WARNING: [RTGEN 206-101] Register 'acc_V' is power-on initialization.
+INFO: [SYN 201-210] Renamed object name 'phase_generator_fp_cos_lut' to 'phase_generator_fbkb' due to the length limit 20
+INFO: [RTGEN 206-100] Bundling port 'incr_V' to AXI-Lite port AXILiteS.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'phase_generator_fp'.
+INFO: [HLS 200-111]  Elapsed time: 0.41 seconds; current allocated memory: 882.391 MB.
+INFO: [RTMG 210-279] Implementing memory 'phase_generator_fbkb_rom' using block ROMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:26 ; elapsed = 00:01:30 . Memory (MB): peak = 1005.500 ; gain = 956.008
+INFO: [SYSC 207-301] Generating SystemC RTL for phase_generator_fp.
+INFO: [VHDL 208-304] Generating VHDL RTL for phase_generator_fp.
+INFO: [VLOG 209-307] Generating Verilog RTL for phase_generator_fp.
+INFO: [IMPL 213-8] Exporting RTL as an IP in IP-XACT.
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Fri Sep 15 20:33:16 2017...
+INFO: [HLS 200-112] Total elapsed time: 105.202 seconds; peak allocated memory: 882.391 MB.

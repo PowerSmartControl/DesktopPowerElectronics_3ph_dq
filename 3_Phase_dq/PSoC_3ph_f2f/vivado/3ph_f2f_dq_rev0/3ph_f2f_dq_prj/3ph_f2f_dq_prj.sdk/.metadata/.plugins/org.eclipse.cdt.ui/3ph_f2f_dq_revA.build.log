@@ -1,0 +1,8 @@
+17:59:58 **** Incremental Build of configuration Debug for project 3ph_f2f_dq_revA ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: No se hace nada para `main-build'.
+
+17:59:58 Build Finished (took 275ms)
+

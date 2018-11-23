@@ -1,0 +1,5 @@
+Directorios del diseño f2f DQ:
+
+Vivado:	 D:\Projects\PSoC_3ph_f2f\vivado\3ph_f2f_dq_rev1
+SDK:	 D:\Projects\PSoC_3ph_f2f\vivado\3ph_f2f_dq_rev1\3ph_f2f_dq_prj\3ph_f2f_dq_prj.sdk
+LabView: D:\Projects\PSoC_3ph_f2f\labview\3phaseDQ_app_revA\

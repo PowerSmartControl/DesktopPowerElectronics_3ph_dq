@@ -1,0 +1,82 @@
+!SESSION 2017-08-05 12:14:48.659 -----------------------------------------------
+eclipse.buildId=2017.2
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2017-08-05 12:15:35.213
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-08-05 12:15:35.213
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2017-08-05 12:15:35.805
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-08-05 12:15:35.805
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-08-05 12:15:48.501
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ASUS-PSC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.xilinx.sdk.utils 0 0 2017-08-05 12:15:51.060
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2017-08-05 12:15:51.092
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2017-08-05 12:15:55.784
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2017-08-05 12:15:55.791
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2017-08-05 12:15:55.798
+!MESSAGE XSCT Command: [setws D:/Projects/PSoC_3ph_f2f/sdk/3ph_f2f_dq_rev0/workspace], Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2017-08-05 12:15:55.815
+!MESSAGE XSCT command with result: [setws D:/Projects/PSoC_3ph_f2f/sdk/3ph_f2f_dq_rev0/workspace], Result: [null, ]. Thread: Thread-14
+!SESSION 2017-08-05 12:17:24.682 -----------------------------------------------
+eclipse.buildId=2017.2
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\Projects\PSoC_3ph_f2f\sdk\3ph_f2f_dq_rev0\workspace
+
+!ENTRY org.eclipse.ui 2 0 2017-08-05 12:17:26.803
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-08-05 12:17:26.803
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2017-08-05 12:17:27.298
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-08-05 12:17:27.298
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-08-05 12:17:30.445
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ASUS-PSC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.xilinx.sdk.utils 0 0 2017-08-05 12:17:30.957
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2017-08-05 12:17:30.961
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2017-08-05 12:17:30.966
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2017-08-05 12:17:30.971
+!MESSAGE XSCT Command: [setws D:/Projects/PSoC_3ph_f2f/sdk/3ph_f2f_dq_rev0/workspace], Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2017-08-05 12:17:32.831
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2017-08-05 12:17:32.835
+!MESSAGE XSCT command with result: [setws D:/Projects/PSoC_3ph_f2f/sdk/3ph_f2f_dq_rev0/workspace], Result: [null, ]. Thread: Thread-14

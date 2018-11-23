@@ -1,0 +1,26 @@
+//bobina
+  //nominal
+ // L = 0.002
+  //prueba rizado
+  L = 50u
+
+//condensador
+  //nominal
+  C = 0.005
+  //prueba rizado
+  //C = 20u
+
+rl = 1p
+R =1
+ve = 10
+fline = 50
+
+//modulador
+ma =0.8*256
+fsw = 10k
+enable  = 1
+
+fs = 1M
+
+//time step
+At = 1u

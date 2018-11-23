@@ -1,0 +1,96 @@
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado_HLS/2017.2/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'ASUS-PSC' on host 'desktop-q08u40i' (Windows NT_amd64 version 6.2) on Sun Aug 13 22:32:02 +0200 2017
+INFO: [HLS 200-10] In directory 'D:/Projects/PSoC_3ph_f2f/hls/phase_generator'
+INFO: [HLS 200-10] Opening project 'D:/Projects/PSoC_3ph_f2f/hls/phase_generator/phase_generator_prj'.
+INFO: [HLS 200-10] Adding design file './src/phase_generator.h' to the project
+INFO: [HLS 200-10] Adding design file './src/phase_generator.cpp' to the project
+INFO: [HLS 200-10] Adding test bench file 'src/tb_phase_generator.cpp' to the project
+INFO: [HLS 200-10] Opening solution 'D:/Projects/PSoC_3ph_f2f/hls/phase_generator/phase_generator_prj/sol_synth'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z010clg400-1'
+INFO: [HLS 200-10] Analyzing design file './src/phase_generator.cpp' ... 
+INFO: [HLS 200-10] Validating synthesis directives ...
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 97.082 ; gain = 47.492
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:02 ; elapsed = 00:00:48 . Memory (MB): peak = 97.121 ; gain = 47.531
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'ap_fixed_base<124, 0, false, (ap_q_mode)5, (ap_o_mode)3, 0>::operator<<' into 'hls::range_redux_payne_hanek_hotbm_pi<61, double, 63, 63>' (r:/builds/2017.2/nightly/2017_06_15_1909853/src/products/hls/hls_lib/src/hls/hls_range_redux.h:645).
+INFO: [XFORM 203-603] Inlining function 'ap_fixed_base<124, 0, false, (ap_q_mode)5, (ap_o_mode)3, 0>::operator<<' into 'hls::range_redux_payne_hanek_hotbm<61, double, 63, 63>' (r:/builds/2017.2/nightly/2017_06_15_1909853/src/products/hls/hls_lib/src/hls/hls_range_redux.h:528).
+INFO: [XFORM 203-603] Inlining function 'ap_fixed_base<63, 0, false, (ap_q_mode)5, (ap_o_mode)3, 0>::operator<<' into 'hls::range_redux_payne_hanek_hotbm_pi<61, double, 63, 63>' (r:/builds/2017.2/nightly/2017_06_15_1909853/src/products/hls/hls_lib/src/hls/hls_range_redux.h:647).
+INFO: [XFORM 203-603] Inlining function 'ap_fixed_base<63, 0, false, (ap_q_mode)5, (ap_o_mode)3, 0>::operator<<' into 'hls::range_redux_payne_hanek_hotbm<61, double, 63, 63>' (r:/builds/2017.2/nightly/2017_06_15_1909853/src/products/hls/hls_lib/src/hls/hls_range_redux.h:530).
+INFO: [XFORM 203-603] Inlining function 'ap_fixed_base<63, 0, false, (ap_q_mode)0, (ap_o_mode)0, 0>::overflow_adjust' into 'ap_fixed_base<63, 0, false, (ap_q_mode)0, (ap_o_mode)0, 0>::ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>.1' ().
+INFO: [XFORM 203-603] Inlining function 'ap_fixed_base<63, 1, true, (ap_q_mode)5, (ap_o_mode)3, 0>::operator<<' into 'hls::scaled_fixed2ieee<63, 1>' (r:/builds/2017.2/nightly/2017_06_15_1909853/src/products/hls/hls_lib/src/hls/utils/x_hls_float_utils.h:442).
+INFO: [XFORM 203-603] Inlining function 'ap_fixed_base<16, 4, true, (ap_q_mode)5, (ap_o_mode)0, 0>::overflow_adjust' into 'ap_fixed_base<16, 4, true, (ap_q_mode)5, (ap_o_mode)0, 0>::ap_fixed_base<32, 8, true, (ap_q_mode)5, (ap_o_mode)3, 0>' ().
+INFO: [XFORM 203-603] Inlining function 'ap_fixed_base<16, 4, true, (ap_q_mode)5, (ap_o_mode)0, 0>::overflow_adjust' into 'ap_fixed_base<16, 4, true, (ap_q_mode)5, (ap_o_mode)0, 0>::ap_fixed_base' ().
+INFO: [XFORM 203-603] Inlining function 'ap_fixed_base<16, 4, true, (ap_q_mode)5, (ap_o_mode)0, 0>::overflow_adjust' into 'ap_fixed_base<16, 4, true, (ap_q_mode)5, (ap_o_mode)0, 0>::ap_fixed_base<32, 32, true, (ap_q_mode)5, (ap_o_mode)3, 0>.1' ().
+INFO: [XFORM 203-603] Inlining function 'ap_fixed_base<16, 4, true, (ap_q_mode)5, (ap_o_mode)0, 0>::overflow_adjust' into 'ap_fixed_base<16, 4, true, (ap_q_mode)5, (ap_o_mode)0, 0>::ap_fixed_base<17, 5, true, (ap_q_mode)5, (ap_o_mode)3, 0>' ().
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:21 ; elapsed = 00:01:22 . Memory (MB): peak = 973.688 ; gain = 924.098
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:24 ; elapsed = 00:01:25 . Memory (MB): peak = 973.688 ; gain = 924.098
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (./src/phase_generator.cpp:31:1) in function 'phase_generator'... converting 9 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (./src/phase_generator.cpp:48:21) to (./src/phase_generator.cpp:83:1) in function 'look_up_sin'... converting 14 basic blocks.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:27 ; elapsed = 00:01:29 . Memory (MB): peak = 1039.820 ; gain = 990.230
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:27 ; elapsed = 00:01:29 . Memory (MB): peak = 1040.461 ; gain = 990.871
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'phase_generator' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Implementing module 'look_up_sin' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'look_up_sin'.
+INFO: [SCHED 204-61] Pipelining result: Target II: 1, Final II: 1, Depth: 3.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 89.615 seconds; current allocated memory: 922.393 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.321 seconds; current allocated memory: 922.536 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Implementing module 'phase_generator' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'phase_generator'.
+INFO: [SCHED 204-61] Pipelining result: Target II: 1, Final II: 1, Depth: 7.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.329 seconds; current allocated memory: 922.857 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.458 seconds; current allocated memory: 923.171 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'look_up_sin' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SYN 201-210] Renamed object name 'look_up_sin_cos_lut_V' to 'look_up_sin_cos_lbkb' due to the length limit 20
+INFO: [RTGEN 206-100] Finished creating RTL model for 'look_up_sin'.
+INFO: [HLS 200-111]  Elapsed time: 0.467 seconds; current allocated memory: 923.579 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'phase_generator' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'phase_generator/incr_V' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'phase_generator/mod_V' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'phase_generator/theta_V' to 'ap_none' (register).
+WARNING: [RTGEN 206-101] Port 'theta_V' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'phase_generator/a_V' to 'ap_none' (register).
+WARNING: [RTGEN 206-101] Port 'a_V' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'phase_generator/b_V' to 'ap_none' (register).
+WARNING: [RTGEN 206-101] Port 'b_V' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'phase_generator/c_V' to 'ap_none' (register).
+WARNING: [RTGEN 206-101] Port 'c_V' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on function 'phase_generator' to 'ap_ctrl_hs'.
+WARNING: [RTGEN 206-101] Register 'acc_V' is power-on initialization.
+INFO: [SYN 201-210] Renamed object name 'phase_generator_phase_lut1' to 'phase_generator_pcud' due to the length limit 20
+INFO: [RTGEN 206-100] Bundling port 'incr_V' and 'mod_V' to AXI-Lite port AXILiteS.
+INFO: [SYN 201-210] Renamed object name 'phase_generator_mul_mul_14s_16s_30_1' to 'phase_generator_mdEe' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'phase_generator_mdEe': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'phase_generator'.
+INFO: [HLS 200-111]  Elapsed time: 0.461 seconds; current allocated memory: 924.507 MB.
+INFO: [RTMG 210-279] Implementing memory 'look_up_sin_cos_lbkb_rom' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'phase_generator_pcud_rom' using auto ROMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:30 ; elapsed = 00:01:33 . Memory (MB): peak = 1040.914 ; gain = 991.324
+INFO: [SYSC 207-301] Generating SystemC RTL for phase_generator.
+INFO: [VHDL 208-304] Generating VHDL RTL for phase_generator.
+INFO: [VLOG 209-307] Generating Verilog RTL for phase_generator.
+INFO: [HLS 200-112] Total elapsed time: 93.506 seconds; peak allocated memory: 924.507 MB.

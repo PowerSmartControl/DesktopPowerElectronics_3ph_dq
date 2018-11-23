@@ -1,0 +1,102 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 1440 -defaultsOSRD
+preplace port SCLK -pg 1 -y 650 -defaultsOSRD
+preplace port theta_sel -pg 1 -y 910 -defaultsOSRD
+preplace port LED2 -pg 1 -y 10 -defaultsOSRD
+preplace port nCS -pg 1 -y 670 -defaultsOSRD
+preplace port LED3 -pg 1 -y 1030 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 1460 -defaultsOSRD
+preplace port OUT_ENA -pg 1 -y 1000 -defaultsOSRD
+preplace portBus S_inv -pg 1 -y 1150 -defaultsOSRD
+preplace portBus SDATA -pg 1 -y 460 -defaultsOSRD
+preplace inst vsi_control_0 -pg 1 -lvl 5 -y 590 -defaultsOSRD
+preplace inst scope_3ph_0 -pg 1 -lvl 5 -y 1260 -defaultsOSRD
+preplace inst fsm_controller_0 -pg 1 -lvl 5 -y 310 -defaultsOSRD
+preplace inst xlslice_cos -pg 1 -lvl 3 -y 920 -defaultsOSRD
+preplace inst xlslice_1 -pg 1 -lvl 6 -y 1600 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 6 -y 1230 -defaultsOSRD
+preplace inst phase_generator_vsi -pg 1 -lvl 3 -y 630 -defaultsOSRD
+preplace inst scope_concat_0 -pg 1 -lvl 6 -y 900 -defaultsOSRD
+preplace inst phase_generator_pll -pg 1 -lvl 5 -y 950 -defaultsOSRD
+preplace inst cordic_0 -pg 1 -lvl 2 -y 880 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 7 -y 1600 -defaultsOSRD
+preplace inst xlslice_sin -pg 1 -lvl 3 -y 1010 -defaultsOSRD
+preplace inst pll_int_0 -pg 1 -lvl 5 -y 100 -defaultsOSRD
+preplace inst pwm_3rdharm_0 -pg 1 -lvl 7 -y 1140 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 4 -y 1220 -defaultsOSRD
+preplace inst adc_interface_0 -pg 1 -lvl 4 -y 390 -defaultsOSRD
+preplace inst abc2alphaBeta2dq_0 -pg 1 -lvl 4 -y 760 -defaultsOSRD
+preplace inst theta_mux_0 -pg 1 -lvl 1 -y 890 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 5 -y 1550 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 3 -y 1220 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 3 -y 1620 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 3 5 1350J 1480 1870J 1430 NJ 1430 NJ 1430 3090J
+preplace netloc ps7_0_axi_periph_M02_AXI 1 4 1 1720
+preplace netloc xlconstant_1_dout 1 6 1 2740J
+preplace netloc adc_interface_0_ACQ_DONE 1 4 1 1720
+preplace netloc SDATA_1 1 0 4 0J 420 NJ 420 NJ 420 NJ
+preplace netloc xlslice_cos_Dout 1 3 1 1270J
+preplace netloc axi_bram_ctrl_0_bram_clk_a 1 5 2 NJ 1550 2690J
+preplace netloc axi_bram_ctrl_0_bram_addr_a 1 5 1 2330
+preplace netloc phase_generator_0_b_V 1 3 3 1340 920 1780 840 2310
+preplace netloc vsi_control_0_dc_V 1 5 2 NJ 610 2740J
+preplace netloc vsi_control_0_da_V 1 5 2 NJ 570 2790J
+preplace netloc abc2alphaBeta2dq_0_ap_done 1 3 2 1350 80 NJ
+preplace netloc xlslice_1_Dout 1 6 1 2680J
+preplace netloc scope_3ph_0_WE 1 5 2 2310J 1290 2710
+preplace netloc fsm_controller_0_PLL_START 1 1 5 310 -20 NJ -20 NJ -20 NJ -20 2310
+preplace netloc processing_system7_0_M_AXI_GP0 1 3 1 1320
+preplace netloc abc2alphaBeta2dq_0_q_V 1 4 2 1830 790 2330
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 2 3 770 720 1300 950 1820
+preplace netloc adc_interface_0_SCLK 1 4 4 1720J 420 NJ 420 NJ 420 3100J
+preplace netloc OUT_ENA_1 1 0 8 NJ 1000 NJ 1000 740J 1060 1250J 980 1750J 1040 NJ 1040 2780J 1030 NJ
+preplace netloc theta_sel_1 1 0 8 -20 -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 3100J
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 2 2 770 1310 1250
+preplace netloc ps7_0_axi_periph_M03_AXI 1 4 1 1730
+preplace netloc fsm_controller_0_VSI_START 1 4 2 1870 210 2290
+preplace netloc pwm_3rdharm_0_S 1 7 1 NJ
+preplace netloc phase_generator_0_theta_V 1 0 6 0 780 NJ 780 740J 730 1280J 930 1860J 860 2290
+preplace netloc ps7_0_axi_periph_M01_AXI 1 4 1 1740
+preplace netloc phase_generator_fp_0_a 1 3 2 NJ 610 1880J
+preplace netloc adc_interface_0_nCS 1 4 4 1750J 430 NJ 430 NJ 430 3090J
+preplace netloc phase_generator_fp_0_b 1 3 2 1250 620 1780J
+preplace netloc fsm_controller_0_ADC_START 1 3 3 1320 -40 NJ -40 2300
+preplace netloc cordic_0_m_axis_dout_tvalid 1 2 2 770 740 1250J
+preplace netloc ps7_0_axi_periph_M06_AXI 1 2 3 750 210 NJ 210 1710
+preplace netloc processing_system7_0_FIXED_IO 1 3 5 1340J 1470 1880J 1460 NJ 1460 NJ 1460 NJ
+preplace netloc phase_generator_fp_0_c 1 3 2 1320 900 1750J
+preplace netloc vsi_control_0_ap_done 1 4 1 1880
+preplace netloc scope_concat_0_dout 1 6 1 2730
+preplace netloc scope_3ph_0_ACQ_DONE 1 2 4 770 1400 1260J 1460 1850J 1450 2290
+preplace netloc scope_3ph_0_ADDR 1 5 2 2360J 1280 2720
+preplace netloc phase_generator_0_c_V 1 3 3 1350 910 1790 850 2300
+preplace netloc abc2alphaBeta2dq_0_beta_V 1 4 2 NJ 750 2380
+preplace netloc theta_mux_0_theta 1 1 1 300
+preplace netloc pll_0_theta_out 1 0 6 -10 540 NJ 540 NJ 540 1320J 570 1730J 410 2360
+preplace netloc ps7_0_axi_periph_M05_AXI 1 4 1 1840
+preplace netloc ps7_0_axi_periph_M04_AXI 1 4 1 1770
+preplace netloc adc_interface_0_SCOPE_DATA 1 4 2 1800J 820 2350J
+preplace netloc adc_interface_0_VS_La 1 4 1 1850
+preplace netloc vsi_control_0_db_V 1 5 2 NJ 590 2770J
+preplace netloc xlslice_sin_Dout 1 3 1 1310J
+preplace netloc blk_mem_gen_0_doutb 1 5 2 2370J 1530 2700J
+preplace netloc processing_system7_0_FCLK_CLK0 1 1 6 320 800 750 750 1290 200 1810 1080 NJ 1080 2750
+preplace netloc phase_generator_0_a_V 1 3 3 1330 940 1880 830 2320
+preplace netloc ps7_0_axi_periph_M00_AXI 1 4 1 1870
+preplace netloc abc2alphaBeta2dq_0_d_V 1 4 2 NJ 770 2340J
+preplace netloc adc_interface_0_VS_Lb 1 4 1 1790
+preplace netloc pll_int_0_ap_done 1 4 1 1860
+preplace netloc pll_int_0_theta_V 1 2 1 760
+preplace netloc axi_bram_ctrl_0_bram_en_a 1 5 2 2290J 1650 2680J
+preplace netloc adc_interface_0_VS_Lc 1 4 1 1760
+preplace netloc abc2alphaBeta2dq_0_alpha_V 1 4 2 1780J 760 2370
+preplace netloc rst_ps7_0_100M_interconnect_aresetn 1 3 4 1260 970 1760J 1060 NJ 1060 2760J
+levelinfo -pg 1 -40 150 530 1030 1550 2120 2530 2940 3120 -top -170 -bot 2090
+",
+}
+{
+   da_axi4_cnt: "7",
+   da_clkrst_cnt: "1",
+}

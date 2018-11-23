@@ -1,0 +1,731 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Fri Sep 15 18:49:25 2017
+# Process ID: 8656
+# Current directory: D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/top_bd_vsi_control_0_0_synth_1
+# Command line: vivado.exe -log top_bd_vsi_control_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_bd_vsi_control_0_0.tcl
+# Log file: D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/top_bd_vsi_control_0_0_synth_1/top_bd_vsi_control_0_0.vds
+# Journal file: D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/top_bd_vsi_control_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source top_bd_vsi_control_0_0.tcl -notrace
+Command: synth_design -top top_bd_vsi_control_0_0 -part xc7z010clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010-clg400'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010-clg400'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 19320 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 331.426 ; gain = 82.223
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top_bd_vsi_control_0_0' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ip/top_bd_vsi_control_0_0/synth/top_bd_vsi_control_0_0.vhd:93]
+INFO: [Synth 8-3491] module 'vsi_control' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:12' bound to instance 'U0' of component 'vsi_control' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ip/top_bd_vsi_control_0_0/synth/top_bd_vsi_control_0_0.vhd:174]
+INFO: [Synth 8-638] synthesizing module 'vsi_control' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:52]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:194]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:197]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:225]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:227]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:231]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:233]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:235]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:237]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:239]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:241]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:245]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:249]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:251]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:253]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:255]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:257]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:259]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:262]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:271]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:282]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:284]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:300]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:311]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:314]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:318]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:321]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:324]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:327]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:354]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:361]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:367]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:370]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:373]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:380]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:382]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:384]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:386]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:390]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:392]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:394]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:396]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:398]
+INFO: [Synth 8-3491] module 'vsi_control_AXILiteS_s_axi' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_AXILiteS_s_axi.vhd:12' bound to instance 'vsi_control_AXILiteS_s_axi_U' of component 'vsi_control_AXILiteS_s_axi' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:627]
+INFO: [Synth 8-638] synthesizing module 'vsi_control_AXILiteS_s_axi' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_AXILiteS_s_axi.vhd:83]
+INFO: [Synth 8-256] done synthesizing module 'vsi_control_AXILiteS_s_axi' (1#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_AXILiteS_s_axi.vhd:83]
+INFO: [Synth 8-3491] module 'vsi_control_faddfbkb' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_faddfbkb.vhd:11' bound to instance 'vsi_control_faddfbkb_U0' of component 'vsi_control_faddfbkb' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:661]
+INFO: [Synth 8-638] synthesizing module 'vsi_control_faddfbkb' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_faddfbkb.vhd:30]
+INFO: [Synth 8-3491] module 'vsi_control_ap_faddfsub_3_full_dsp_32' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/ip/vsi_control_ap_faddfsub_3_full_dsp_32.vhd:59' bound to instance 'vsi_control_ap_faddfsub_3_full_dsp_32_u' of component 'vsi_control_ap_faddfsub_3_full_dsp_32' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_faddfbkb.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'vsi_control_ap_faddfsub_3_full_dsp_32' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/ip/vsi_control_ap_faddfsub_3_full_dsp_32.vhd:74]
+INFO: [Synth 8-3491] module 'floating_point_v7_1_4' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/4a02/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_4' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/ip/vsi_control_ap_faddfsub_3_full_dsp_32.vhd:201]
+INFO: [Synth 8-256] done synthesizing module 'vsi_control_ap_faddfsub_3_full_dsp_32' (19#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/ip/vsi_control_ap_faddfsub_3_full_dsp_32.vhd:74]
+INFO: [Synth 8-256] done synthesizing module 'vsi_control_faddfbkb' (20#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_faddfbkb.vhd:30]
+INFO: [Synth 8-3491] module 'vsi_control_fadd_cud' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_fadd_cud.vhd:11' bound to instance 'vsi_control_fadd_cud_U1' of component 'vsi_control_fadd_cud' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:677]
+INFO: [Synth 8-638] synthesizing module 'vsi_control_fadd_cud' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_fadd_cud.vhd:29]
+INFO: [Synth 8-3491] module 'vsi_control_ap_fadd_3_full_dsp_32' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/ip/vsi_control_ap_fadd_3_full_dsp_32.vhd:59' bound to instance 'vsi_control_ap_fadd_3_full_dsp_32_u' of component 'vsi_control_ap_fadd_3_full_dsp_32' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_fadd_cud.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'vsi_control_ap_fadd_3_full_dsp_32' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/ip/vsi_control_ap_fadd_3_full_dsp_32.vhd:72]
+INFO: [Synth 8-3491] module 'floating_point_v7_1_4' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/4a02/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_4' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/ip/vsi_control_ap_fadd_3_full_dsp_32.vhd:197]
+INFO: [Synth 8-256] done synthesizing module 'vsi_control_ap_fadd_3_full_dsp_32' (21#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/ip/vsi_control_ap_fadd_3_full_dsp_32.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'vsi_control_fadd_cud' (22#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_fadd_cud.vhd:29]
+INFO: [Synth 8-3491] module 'vsi_control_fmul_dEe' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_fmul_dEe.vhd:11' bound to instance 'vsi_control_fmul_dEe_U2' of component 'vsi_control_fmul_dEe' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:692]
+INFO: [Synth 8-638] synthesizing module 'vsi_control_fmul_dEe' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_fmul_dEe.vhd:29]
+INFO: [Synth 8-3491] module 'vsi_control_ap_fmul_2_max_dsp_32' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/ip/vsi_control_ap_fmul_2_max_dsp_32.vhd:59' bound to instance 'vsi_control_ap_fmul_2_max_dsp_32_u' of component 'vsi_control_ap_fmul_2_max_dsp_32' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_fmul_dEe.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'vsi_control_ap_fmul_2_max_dsp_32' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/ip/vsi_control_ap_fmul_2_max_dsp_32.vhd:72]
+INFO: [Synth 8-3491] module 'floating_point_v7_1_4' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/4a02/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_4' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/ip/vsi_control_ap_fmul_2_max_dsp_32.vhd:197]
+INFO: [Synth 8-256] done synthesizing module 'vsi_control_ap_fmul_2_max_dsp_32' (30#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/ip/vsi_control_ap_fmul_2_max_dsp_32.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'vsi_control_fmul_dEe' (31#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_fmul_dEe.vhd:29]
+INFO: [Synth 8-3491] module 'vsi_control_fmul_dEe' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_fmul_dEe.vhd:11' bound to instance 'vsi_control_fmul_dEe_U3' of component 'vsi_control_fmul_dEe' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:707]
+INFO: [Synth 8-3491] module 'vsi_control_fmul_dEe' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_fmul_dEe.vhd:11' bound to instance 'vsi_control_fmul_dEe_U4' of component 'vsi_control_fmul_dEe' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:722]
+INFO: [Synth 8-3491] module 'vsi_control_sitofeOg' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_sitofeOg.vhd:11' bound to instance 'vsi_control_sitofeOg_U5' of component 'vsi_control_sitofeOg' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:737]
+INFO: [Synth 8-638] synthesizing module 'vsi_control_sitofeOg' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_sitofeOg.vhd:27]
+INFO: [Synth 8-3491] module 'vsi_control_ap_sitofp_4_no_dsp_32' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/ip/vsi_control_ap_sitofp_4_no_dsp_32.vhd:59' bound to instance 'vsi_control_ap_sitofp_4_no_dsp_32_u' of component 'vsi_control_ap_sitofp_4_no_dsp_32' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_sitofeOg.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'vsi_control_ap_sitofp_4_no_dsp_32' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/ip/vsi_control_ap_sitofp_4_no_dsp_32.vhd:70]
+INFO: [Synth 8-3491] module 'floating_point_v7_1_4' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/4a02/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_4' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/ip/vsi_control_ap_sitofp_4_no_dsp_32.vhd:193]
+INFO: [Synth 8-256] done synthesizing module 'vsi_control_ap_sitofp_4_no_dsp_32' (40#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/ip/vsi_control_ap_sitofp_4_no_dsp_32.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'vsi_control_sitofeOg' (41#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_sitofeOg.vhd:27]
+INFO: [Synth 8-3491] module 'vsi_control_sitofeOg' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_sitofeOg.vhd:11' bound to instance 'vsi_control_sitofeOg_U6' of component 'vsi_control_sitofeOg' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:750]
+INFO: [Synth 8-3491] module 'vsi_control_fcmp_fYi' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_fcmp_fYi.vhd:11' bound to instance 'vsi_control_fcmp_fYi_U7' of component 'vsi_control_fcmp_fYi' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:763]
+INFO: [Synth 8-638] synthesizing module 'vsi_control_fcmp_fYi' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_fcmp_fYi.vhd:27]
+INFO: [Synth 8-3491] module 'vsi_control_ap_fcmp_0_no_dsp_32' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/ip/vsi_control_ap_fcmp_0_no_dsp_32.vhd:59' bound to instance 'vsi_control_ap_fcmp_0_no_dsp_32_u' of component 'vsi_control_ap_fcmp_0_no_dsp_32' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_fcmp_fYi.vhd:69]
+INFO: [Synth 8-638] synthesizing module 'vsi_control_ap_fcmp_0_no_dsp_32' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/ip/vsi_control_ap_fcmp_0_no_dsp_32.vhd:72]
+INFO: [Synth 8-3491] module 'floating_point_v7_1_4' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/4a02/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_4' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/ip/vsi_control_ap_fcmp_0_no_dsp_32.vhd:197]
+INFO: [Synth 8-256] done synthesizing module 'vsi_control_ap_fcmp_0_no_dsp_32' (45#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/ip/vsi_control_ap_fcmp_0_no_dsp_32.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'vsi_control_fcmp_fYi' (46#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_fcmp_fYi.vhd:27]
+INFO: [Synth 8-3491] module 'vsi_control_fcmp_fYi' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_fcmp_fYi.vhd:11' bound to instance 'vsi_control_fcmp_fYi_U8' of component 'vsi_control_fcmp_fYi' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:776]
+WARNING: [Synth 8-6014] Unused sequential element ap_block_state72_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:1270]
+WARNING: [Synth 8-6014] Unused sequential element ap_ready_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:1297]
+WARNING: [Synth 8-6014] Unused sequential element db_V_1_vld_in_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:870]
+WARNING: [Synth 8-6014] Unused sequential element dc_V_1_vld_in_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:878]
+WARNING: [Synth 8-6014] Unused sequential element ma_1_fu_724_p3_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:1554]
+WARNING: [Synth 8-6014] Unused sequential element notlhs6_fu_628_p2_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:1561]
+WARNING: [Synth 8-6014] Unused sequential element notlhs_fu_398_p2_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:1563]
+WARNING: [Synth 8-6014] Unused sequential element notrhs6_fu_634_p2_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:1567]
+WARNING: [Synth 8-6014] Unused sequential element notrhs_fu_404_p2_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:1569]
+INFO: [Synth 8-256] done synthesizing module 'vsi_control' (47#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'top_bd_vsi_control_0_0' (48#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ip/top_bd_vsi_control_0_0/synth/top_bd_vsi_control_0_0.vhd:93]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized9 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized9 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized9 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized9 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized9 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized86 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized86 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized86 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized86 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized86 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized81 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized81 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized81 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized81 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized81 has unconnected port SINIT
+WARNING: [Synth 8-3331] design compare_eq_im__parameterized3 has unconnected port CARRYS_OUT[0]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized11 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized11 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized11 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized11 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized11 has unconnected port SINIT
+WARNING: [Synth 8-3331] design compare_ne_im has unconnected port CARRYS_OUT[0]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized25 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized25 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized25 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized25 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized25 has unconnected port SINIT
+WARNING: [Synth 8-3331] design compare_eq_im__parameterized2 has unconnected port CARRYS_OUT[0]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized3 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized3 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized3 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized3 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized3 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized84 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized84 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized84 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized84 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized84 has unconnected port SINIT
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port m_axis_result_tuser[0]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port m_axis_result_tlast
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port aclken
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port aresetn
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_a_tuser[0]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_a_tlast
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_b_tuser[0]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_b_tlast
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tvalid
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[31]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[30]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[29]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[28]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[27]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[26]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[25]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[24]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[23]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[22]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[21]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[20]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[19]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[18]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[17]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[16]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[15]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[14]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[13]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[12]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[11]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[10]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[9]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[8]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[7]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[6]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[5]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[4]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[3]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[2]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[1]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tdata[0]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tuser[0]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_c_tlast
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_operation_tdata[7]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_operation_tdata[6]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_operation_tdata[2]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_operation_tdata[1]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_operation_tdata[0]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_operation_tuser[0]
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port s_axis_operation_tlast
+WARNING: [Synth 8-3331] design floating_point_v7_1_4_viv__parameterized7 has unconnected port m_axis_result_tready
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized31 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized31 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized31 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized17 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized17 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized17 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized47 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized47 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized47 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized47 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized47 has unconnected port SINIT
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 431.621 ; gain = 182.418
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 431.621 ; gain = 182.418
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 629 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ip/top_bd_vsi_control_0_0/constraints/vsi_control_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ip/top_bd_vsi_control_0_0/constraints/vsi_control_ooc.xdc] for cell 'U0'
+Parsing XDC File [D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/top_bd_vsi_control_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/top_bd_vsi_control_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 38 instances were transformed.
+  FDE => FDRE: 38 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.087 . Memory (MB): peak = 709.480 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 709.480 ; gain = 460.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 709.480 ; gain = 460.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/top_bd_vsi_control_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 709.480 ; gain = 460.277
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'wstate_reg' in module 'vsi_control_AXILiteS_s_axi'
+WARNING: [Synth 8-6014] Unused sequential element wstate_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_AXILiteS_s_axi.vhd:147]
+INFO: [Synth 8-5544] ROM "ARREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "RVALID_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "BVALID" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "WREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "AWREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "wnext" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "wnext" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_over_int" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ip_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_over_int" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ip_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "det_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "state_int_up" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "op_tdata" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-5544] ROM "tmp_9_fu_427_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "notlhs8_fu_680_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs8_fu_686_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs2_fu_483_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs2_fu_477_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs3_fu_495_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs3_fu_501_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs5_fu_530_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs5_fu_536_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "tmp_9_fu_427_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "notlhs8_fu_680_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs8_fu_686_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs2_fu_483_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs2_fu_477_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs3_fu_495_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs3_fu_501_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs5_fu_530_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs5_fu_536_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "grp_fu_249_opcode" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sat_V" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "grp_fu_282_opcode" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tmp_50_fu_951_p3" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tmp_55_fu_1026_p3" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tmp_60_fu_1101_p3" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element wstate_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_AXILiteS_s_axi.vhd:147]
+WARNING: [Synth 8-6014] Unused sequential element wstate_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_AXILiteS_s_axi.vhd:147]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                             0001 |                              011
+*
+                  wridle |                             0010 |                              000
+                  wrdata |                             0100 |                              001
+                  wrresp |                             1000 |                              010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wstate_reg' using encoding 'one-hot' in module 'vsi_control_AXILiteS_s_axi'
+WARNING: [Synth 8-6014] Unused sequential element wstate_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/2a4f/hdl/vhdl/vsi_control_AXILiteS_s_axi.vhd:147]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 709.480 ; gain = 460.277
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'U0/vsi_control_faddfbkb_U0/vsi_control_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'U0/vsi_control_faddfbkb_U0/vsi_control_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'U0/vsi_control_faddfbkb_U0/vsi_control_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'U0/vsi_control_faddfbkb_U0/vsi_control_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'flt_add_dsp:/DSP48E1_BODY.ALIGN_ADD/SUB_DELAY' (delay__parameterized0) to 'flt_add_dsp:/DSP48E1_BODY.ALIGN_ADD/SUB_ADD_IP_DELAY'
+INFO: [Synth 8-223] decloning instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'vsi_control_fmul_dEe:/vsi_control_ap_fmul_2_max_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'vsi_control_fmul_dEe:/vsi_control_ap_fmul_2_max_dsp_32_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'vsi_control_fmul_dEe:/vsi_control_ap_fmul_2_max_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'vsi_control_fmul_dEe:/vsi_control_ap_fmul_2_max_dsp_32_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'vsi_control_sitofeOg:/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'vsi_control_sitofeOg:/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO'
+INFO: [Synth 8-223] decloning instance 'vsi_control_sitofeOg:/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'vsi_control_sitofeOg:/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/DELAY_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'vsi_control_sitofeOg:/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'vsi_control_sitofeOg:/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/DELAY_UNDERFLOW'
+INFO: [Synth 8-223] decloning instance 'vsi_control_sitofeOg:/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'vsi_control_sitofeOg:/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'vsi_control_sitofeOg:/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'vsi_control_sitofeOg:/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'vsi_control_sitofeOg:/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXTRA_LSB_BIT_DEL' (delay__parameterized0) to 'vsi_control_sitofeOg:/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXTRA_LSB_RND1_DEL'
+INFO: [Synth 8-223] decloning instance 'vsi_control_sitofeOg:/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_INC_DELAY' (delay__parameterized0) to 'vsi_control_sitofeOg:/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_INC_RND1_DELAY'
+INFO: [Synth 8-223] decloning instance 'vsi_control_sitofeOg:/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/NORMALIZE_DEL' (delay__parameterized49) to 'vsi_control_sitofeOg:/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/NORMALIZE_RND1_DEL'
+INFO: [Synth 8-223] decloning instance 'vsi_control_sitofeOg:/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_IN_DELAY.EXP_IN_DEL' (delay__parameterized27) to 'vsi_control_sitofeOg:/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_RND2_DELAY.EXP_RND_DEL'
+INFO: [Synth 8-223] decloning instance 'vsi_control_sitofeOg:/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_IN_DELAY.EXP_OFF_OP_DEL' (delay__parameterized27) to 'vsi_control_sitofeOg:/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_RND2_DELAY.EXP_OFF_RND_DEL'
+INFO: [Synth 8-223] decloning instance 'vsi_control_fcmp_fYi:/vsi_control_ap_fcmp_0_no_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'vsi_control_fcmp_fYi:/vsi_control_ap_fcmp_0_no_dsp_32_u/U0/i_synth/DELAY_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'vsi_control_fcmp_fYi:/vsi_control_ap_fcmp_0_no_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'vsi_control_fcmp_fYi:/vsi_control_ap_fcmp_0_no_dsp_32_u/U0/i_synth/DELAY_UNDERFLOW'
+INFO: [Synth 8-223] decloning instance 'vsi_control_fcmp_fYi:/vsi_control_ap_fcmp_0_no_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'vsi_control_fcmp_fYi:/vsi_control_ap_fcmp_0_no_dsp_32_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'vsi_control_fcmp_fYi:/vsi_control_ap_fcmp_0_no_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'vsi_control_fcmp_fYi:/vsi_control_ap_fcmp_0_no_dsp_32_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/exp_over_int" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/ip_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/exp_over_int" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/ip_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs2_fu_477_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs2_fu_483_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs3_fu_495_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs3_fu_501_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs5_fu_530_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs5_fu_536_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs8_fu_680_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs8_fu_686_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_sitofeOg_U6/vsi_control_ap_sitofp_4_no_dsp_32_u/U0 /i_synth/\FIX_TO_FLT_OP.SPD.OP/EXP/a_is_signed.IP_SIGN_DELAY/i_pipe/opt_has_pipe.first_q_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_sitofeOg_U5/vsi_control_ap_sitofp_4_no_dsp_32_u/U0 /i_synth/\FIX_TO_FLT_OP.SPD.OP/EXP/a_is_signed.IP_SIGN_DELAY/i_pipe/opt_has_pipe.first_q_reg[0] )
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_sitofeOg_U6/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/EXP/a_is_signed.IP_SIGN_DELAY/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][0]' (FDE) to 'U0/vsi_control_sitofeOg_U6/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/EXP/a_is_signed.IP_SIGN_DELAY/i_pipe/opt_has_pipe.first_q_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[20] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[29] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[23] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/\vsi_control_fadd_cud_U1/din1_buf1_reg[31] )
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_sitofeOg_U5/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/EXP/a_is_signed.IP_SIGN_DELAY/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][0]' (FDE) to 'U0/vsi_control_sitofeOg_U5/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/EXP/a_is_signed.IP_SIGN_DELAY/i_pipe/opt_has_pipe.first_q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/NOT_LOW_LATENCY_NORM_DIST.NORM_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[8]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/NOT_LOW_LATENCY_NORM_DIST.NORM_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_faddfbkb_U0/vsi_control_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/NOT_LOW_LATENCY_NORM_DIST.NORM_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[8]' (FDE) to 'U0/vsi_control_faddfbkb_U0/vsi_control_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/NOT_LOW_LATENCY_NORM_DIST.NORM_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/sh_assign_4_reg_1401_reg[8]' (FDE) to 'U0/isNeg_2_reg_1406_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_28_i_i_i2_reg_1412_reg[0]' (FDE) to 'U0/sh_assign_4_reg_1401_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/sh_assign_2_reg_1375_reg[8]' (FDE) to 'U0/isNeg_1_reg_1380_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_28_i_i_i1_reg_1386_reg[0]' (FDE) to 'U0/sh_assign_2_reg_1375_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/sh_assign_reg_1349_reg[8]' (FDE) to 'U0/isNeg_reg_1354_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_28_i_i_i_reg_1360_reg[0]' (FDE) to 'U0/sh_assign_reg_1349_reg[0]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/vsi_control_AXILiteS_s_axi_U/\rstate_reg[2] )
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/B_SIGN_DELAY/i_pipe/opt_has_pipe.first_q_reg[0]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/B_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_sitofeOg_U6/vsi_control_ap_sitofp_4_no_dsp_32_u/U0 /i_synth/\FIX_TO_FLT_OP.SPD.OP/EXP/a_is_signed.IP_SIGN_DELAY/i_pipe/opt_has_pipe.first_q_reg[0] )
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/B_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[7]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[21]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/B_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[6]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/B_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/B_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[5]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/B_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/B_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[4]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/B_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/B_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[3]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/B_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/B_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[2]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/B_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/B_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[0]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/B_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/B_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[1]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[22]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_sitofeOg_U5/vsi_control_ap_sitofp_4_no_dsp_32_u/U0 /i_synth/\FIX_TO_FLT_OP.SPD.OP/EXP/a_is_signed.IP_SIGN_DELAY/i_pipe/opt_has_pipe.first_q_reg[0] )
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_sitofeOg_U6/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/EXP/a_is_signed.IP_SIGN_DELAY/i_pipe/opt_has_pipe.i_pipe[3].pipe_reg[3][0]' (FDE) to 'U0/vsi_control_sitofeOg_U6/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/EXP/a_is_signed.IP_SIGN_DELAY/i_pipe/opt_has_pipe.first_q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[14]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[22]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[15]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[22]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[16]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[22]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[17]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[22]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[18]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[22]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[19]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[22]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[20]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[22]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[22]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[1]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[0]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[3]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[2]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[5]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[4]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[7]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[6]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[9]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[8]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[11]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[10]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[13]' (FDE) to 'U0/vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[12]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_fadd_cud_U1/vsi_control_ap_fadd_3_full_dsp_32_u/U0 /i_synth/\ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[12] )
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_sitofeOg_U5/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/EXP/a_is_signed.IP_SIGN_DELAY/i_pipe/opt_has_pipe.i_pipe[3].pipe_reg[3][0]' (FDE) to 'U0/vsi_control_sitofeOg_U5/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/EXP/a_is_signed.IP_SIGN_DELAY/i_pipe/opt_has_pipe.first_q_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_sitofeOg_U6/vsi_control_ap_sitofp_4_no_dsp_32_u/U0 /i_synth/\FIX_TO_FLT_OP.SPD.OP/EXP/a_is_signed.IP_SIGN_DELAY/i_pipe/opt_has_pipe.first_q_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\vsi_control_sitofeOg_U5/vsi_control_ap_sitofp_4_no_dsp_32_u/U0 /i_synth/\FIX_TO_FLT_OP.SPD.OP/EXP/a_is_signed.IP_SIGN_DELAY/i_pipe/opt_has_pipe.first_q_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\tmp_i2_reg_1160_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\reg_291_reg[31] )
+WARNING: [Synth 8-3332] Sequential element (rstate_reg[2]) is unused and will be removed from module vsi_control_AXILiteS_s_axi.
+INFO: [Synth 8-3332] Sequential element (i_nd_to_rdy/opt_has_pipe.i_pipe[2].pipe_reg[2][0]) is unused and will be removed from module floating_point_v7_1_4_viv.
+INFO: [Synth 8-3332] Sequential element (i_nd_to_rdy/opt_has_pipe.i_pipe[3].pipe_reg[3][0]) is unused and will be removed from module floating_point_v7_1_4_viv.
+INFO: [Synth 8-3332] Sequential element (i_nd_to_rdy/opt_has_pipe.i_pipe[2].pipe_reg[2][0]) is unused and will be removed from module floating_point_v7_1_4_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (i_nd_to_rdy/opt_has_pipe.i_pipe[3].pipe_reg[3][0]) is unused and will be removed from module floating_point_v7_1_4_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/B_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[12]) is unused and will be removed from module floating_point_v7_1_4_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (i_nd_to_rdy/opt_has_pipe.i_pipe[2].pipe_reg[2][0]) is unused and will be removed from module floating_point_v7_1_4_viv__parameterized3__1.
+INFO: [Synth 8-3332] Sequential element (i_nd_to_rdy/opt_has_pipe.i_pipe[2].pipe_reg[2][0]) is unused and will be removed from module floating_point_v7_1_4_viv__parameterized3__2.
+INFO: [Synth 8-3332] Sequential element (i_nd_to_rdy/opt_has_pipe.i_pipe[2].pipe_reg[2][0]) is unused and will be removed from module floating_point_v7_1_4_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (i_nd_to_rdy/opt_has_pipe.i_pipe[2].pipe_reg[2][0]) is unused and will be removed from module floating_point_v7_1_4_viv__parameterized5__1.
+INFO: [Synth 8-3332] Sequential element (i_nd_to_rdy/opt_has_pipe.i_pipe[3].pipe_reg[3][0]) is unused and will be removed from module floating_point_v7_1_4_viv__parameterized5__1.
+INFO: [Synth 8-3332] Sequential element (i_nd_to_rdy/opt_has_pipe.i_pipe[4].pipe_reg[4][0]) is unused and will be removed from module floating_point_v7_1_4_viv__parameterized5__1.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[0]) is unused and will be removed from module floating_point_v7_1_4_viv__parameterized5__1.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/EXP/a_is_signed.IP_SIGN_DELAY/i_pipe/opt_has_pipe.first_q_reg[0]) is unused and will be removed from module floating_point_v7_1_4_viv__parameterized5__1.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/OP/RESULT_REG.NORMAL.sign_op_reg) is unused and will be removed from module floating_point_v7_1_4_viv__parameterized5__1.
+INFO: [Synth 8-3332] Sequential element (i_nd_to_rdy/opt_has_pipe.i_pipe[2].pipe_reg[2][0]) is unused and will be removed from module floating_point_v7_1_4_viv__parameterized5.
+INFO: [Synth 8-3332] Sequential element (i_nd_to_rdy/opt_has_pipe.i_pipe[3].pipe_reg[3][0]) is unused and will be removed from module floating_point_v7_1_4_viv__parameterized5.
+INFO: [Synth 8-3332] Sequential element (i_nd_to_rdy/opt_has_pipe.i_pipe[4].pipe_reg[4][0]) is unused and will be removed from module floating_point_v7_1_4_viv__parameterized5.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/NORM_SHIFT/MUX_LOOP[1].DEL_SHIFT/i_pipe/opt_has_pipe.first_q_reg[0]) is unused and will be removed from module floating_point_v7_1_4_viv__parameterized5.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/EXP/a_is_signed.IP_SIGN_DELAY/i_pipe/opt_has_pipe.first_q_reg[0]) is unused and will be removed from module floating_point_v7_1_4_viv__parameterized5.
+INFO: [Synth 8-3332] Sequential element (FIX_TO_FLT_OP.SPD.OP/OP/RESULT_REG.NORMAL.sign_op_reg) is unused and will be removed from module floating_point_v7_1_4_viv__parameterized5.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[31]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[30]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[29]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[28]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[27]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[26]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[25]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[24]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[23]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[22]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[21]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[20]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[19]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[18]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[17]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[16]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[15]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[14]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[13]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[12]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[11]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[10]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[9]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[8]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[7]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[6]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[5]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[4]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[3]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[2]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[1]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (vsi_control_fadd_cud_U1/din1_buf1_reg[0]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (reg_291_reg[31]) is unused and will be removed from module vsi_control.
+WARNING: [Synth 8-3332] Sequential element (tmp_i2_reg_1160_reg[31]) is unused and will be removed from module vsi_control.
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_sitofeOg_U6/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/OP/RESULT_REG.NORMAL.exp_op_reg[5]' (FDRE) to 'U0/vsi_control_sitofeOg_U6/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/OP/RESULT_REG.NORMAL.exp_op_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/vsi_control_sitofeOg_U5/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/OP/RESULT_REG.NORMAL.exp_op_reg[5]' (FDRE) to 'U0/vsi_control_sitofeOg_U5/vsi_control_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/OP/RESULT_REG.NORMAL.exp_op_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_i2_reg_1160_reg[28]' (FDE) to 'U0/tmp_i2_reg_1160_reg[29]'
+INFO: [Synth 8-3886] merging instance 'U0/reg_291_reg[28]' (FDE) to 'U0/reg_291_reg[29]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 709.480 ; gain = 460.277
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 739.297 ; gain = 490.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:51 ; elapsed = 00:00:53 . Memory (MB): peak = 758.457 ; gain = 509.254
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 771.707 ; gain = 522.504
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:54 ; elapsed = 00:00:56 . Memory (MB): peak = 771.707 ; gain = 522.504
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:54 ; elapsed = 00:00:56 . Memory (MB): peak = 771.707 ; gain = 522.504
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:55 ; elapsed = 00:00:56 . Memory (MB): peak = 771.707 ; gain = 522.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:55 ; elapsed = 00:00:56 . Memory (MB): peak = 771.707 ; gain = 522.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 771.707 ; gain = 522.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 771.707 ; gain = 522.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |CARRY4    |     6|
+|2     |DSP48E1   |     2|
+|3     |DSP48E1_1 |     2|
+|4     |DSP48E1_2 |     3|
+|5     |DSP48E1_3 |     3|
+|6     |DSP48E1_4 |     3|
+|7     |LUT1      |    34|
+|8     |LUT2      |   215|
+|9     |LUT3      |   608|
+|10    |LUT4      |   314|
+|11    |LUT5      |   442|
+|12    |LUT6      |   906|
+|13    |MUXCY     |   402|
+|14    |MUXF7     |     6|
+|15    |XORCY     |   170|
+|16    |FDE       |    38|
+|17    |FDRE      |  2078|
+|18    |FDSE      |     3|
++------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 771.707 ; gain = 522.504
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 567 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:33 ; elapsed = 00:00:49 . Memory (MB): peak = 771.707 ; gain = 244.645
+Synthesis Optimization Complete : Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 771.707 ; gain = 522.504
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 629 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 146 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 108 instances
+  FDE => FDRE: 38 instances
+
+326 Infos, 148 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:58 ; elapsed = 00:01:00 . Memory (MB): peak = 771.707 ; gain = 526.133
+INFO: [Common 17-1381] The checkpoint 'D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/top_bd_vsi_control_0_0_synth_1/top_bd_vsi_control_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ip/top_bd_vsi_control_0_0/top_bd_vsi_control_0_0.xci
+INFO: [Coretcl 2-1174] Renamed 352 cell refs.
+INFO: [Common 17-1381] The checkpoint 'D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/top_bd_vsi_control_0_0_synth_1/top_bd_vsi_control_0_0.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 771.707 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Sep 15 18:50:33 2017...

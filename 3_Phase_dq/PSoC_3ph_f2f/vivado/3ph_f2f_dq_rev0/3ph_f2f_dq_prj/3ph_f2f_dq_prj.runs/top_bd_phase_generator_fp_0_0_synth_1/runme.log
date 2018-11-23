@@ -1,0 +1,466 @@
+
+*** Running vivado
+    with args -log top_bd_phase_generator_fp_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_bd_phase_generator_fp_0_0.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source top_bd_phase_generator_fp_0_0.tcl -notrace
+Command: synth_design -top top_bd_phase_generator_fp_0_0 -part xc7z010clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010-clg400'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010-clg400'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 17096 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 329.211 ; gain = 80.996
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top_bd_phase_generator_fp_0_0' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ip/top_bd_phase_generator_fp_0_0/synth/top_bd_phase_generator_fp_0_0.vhd:87]
+	Parameter C_S_AXI_AXILITES_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter C_S_AXI_AXILITES_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'phase_generator_fp' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fp.vhd:12' bound to instance 'U0' of component 'phase_generator_fp' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ip/top_bd_phase_generator_fp_0_0/synth/top_bd_phase_generator_fp_0_0.vhd:156]
+INFO: [Synth 8-638] synthesizing module 'phase_generator_fp' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fp.vhd:46]
+	Parameter C_S_AXI_AXILITES_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter C_S_AXI_AXILITES_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fp.vhd:74]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fp.vhd:77]
+	Parameter DataWidth bound to: 32 - type: integer 
+	Parameter AddressRange bound to: 1024 - type: integer 
+	Parameter AddressWidth bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'phase_generator_fbkb' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fbkb.vhd:3242' bound to instance 'cos_lut_U' of component 'phase_generator_fbkb' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fp.vhd:272]
+INFO: [Synth 8-638] synthesizing module 'phase_generator_fbkb' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fbkb.vhd:3270]
+	Parameter DataWidth bound to: 32 - type: integer 
+	Parameter AddressRange bound to: 1024 - type: integer 
+	Parameter AddressWidth bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'phase_generator_fbkb_rom' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fbkb.vhd:12' bound to instance 'phase_generator_fbkb_rom_U' of component 'phase_generator_fbkb_rom' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fbkb.vhd:3297]
+INFO: [Synth 8-638] synthesizing module 'phase_generator_fbkb_rom' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fbkb.vhd:42]
+	Parameter dwidth bound to: 32 - type: integer 
+	Parameter awidth bound to: 10 - type: integer 
+	Parameter mem_size bound to: 1024 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "block" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fbkb.vhd:51]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "block" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fbkb.vhd:1076]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "block" *) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fbkb.vhd:2101]
+INFO: [Synth 8-256] done synthesizing module 'phase_generator_fbkb_rom' (1#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fbkb.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'phase_generator_fbkb' (2#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fbkb.vhd:3270]
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'phase_generator_fp_AXILiteS_s_axi' declared at 'd:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fp_AXILiteS_s_axi.vhd:12' bound to instance 'phase_generator_fp_AXILiteS_s_axi_U' of component 'phase_generator_fp_AXILiteS_s_axi' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fp.vhd:299]
+INFO: [Synth 8-638] synthesizing module 'phase_generator_fp_AXILiteS_s_axi' [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fp_AXILiteS_s_axi.vhd:53]
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'phase_generator_fp_AXILiteS_s_axi' (3#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fp_AXILiteS_s_axi.vhd:53]
+WARNING: [Synth 8-6014] Unused sequential element ap_block_pp0_stage0_flag00001001_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fp.vhd:444]
+WARNING: [Synth 8-6014] Unused sequential element ap_block_state1_pp0_stage0_iter0_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fp.vhd:462]
+WARNING: [Synth 8-6014] Unused sequential element ap_idle_pp0_0to2_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fp.vhd:504]
+WARNING: [Synth 8-6014] Unused sequential element ap_reset_idle_pp0_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fp.vhd:524]
+WARNING: [Synth 8-6014] Unused sequential element ap_block_pp0_stage0_flag00011011_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fp.vhd:348]
+WARNING: [Synth 8-6014] Unused sequential element cos_lut_ce1_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fp.vhd:284]
+WARNING: [Synth 8-6014] Unused sequential element cos_lut_ce2_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fp.vhd:287]
+WARNING: [Synth 8-6014] Unused sequential element cos_lut_ce3_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fp.vhd:290]
+WARNING: [Synth 8-6014] Unused sequential element cos_lut_ce4_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fp.vhd:293]
+WARNING: [Synth 8-6014] Unused sequential element cos_lut_ce5_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fp.vhd:296]
+INFO: [Synth 8-256] done synthesizing module 'phase_generator_fp' (4#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fp.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'top_bd_phase_generator_fp_0_0' (5#1) [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ip/top_bd_phase_generator_fp_0_0/synth/top_bd_phase_generator_fp_0_0.vhd:87]
+WARNING: [Synth 8-3331] design phase_generator_fbkb has unconnected port reset
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 370.293 ; gain = 122.078
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 370.293 ; gain = 122.078
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ip/top_bd_phase_generator_fp_0_0/constraints/phase_generator_fp_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ip/top_bd_phase_generator_fp_0_0/constraints/phase_generator_fp_ooc.xdc] for cell 'U0'
+Parsing XDC File [D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/top_bd_phase_generator_fp_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/top_bd_phase_generator_fp_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 680.586 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 680.586 ; gain = 432.371
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 680.586 ; gain = 432.371
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/top_bd_phase_generator_fp_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 680.586 ; gain = 432.371
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5547] Trying to map ROM "mem0" into Block RAM due to explicit "ram_style" or "rom_style" specification
+INFO: [Synth 8-5547] Trying to map ROM "mem0" into Block RAM due to explicit "ram_style" or "rom_style" specification
+INFO: [Synth 8-5547] Trying to map ROM "mem1" into Block RAM due to explicit "ram_style" or "rom_style" specification
+INFO: [Synth 8-5547] Trying to map ROM "mem1" into Block RAM due to explicit "ram_style" or "rom_style" specification
+INFO: [Synth 8-5547] Trying to map ROM "mem2" into Block RAM due to explicit "ram_style" or "rom_style" specification
+INFO: [Synth 8-5547] Trying to map ROM "mem2" into Block RAM due to explicit "ram_style" or "rom_style" specification
+WARNING: [Synth 8-6014] Unused sequential element q0_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fbkb.vhd:3216]
+WARNING: [Synth 8-6014] Unused sequential element q1_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fbkb.vhd:3219]
+WARNING: [Synth 8-6014] Unused sequential element q2_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fbkb.vhd:3222]
+WARNING: [Synth 8-6014] Unused sequential element q3_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fbkb.vhd:3225]
+WARNING: [Synth 8-6014] Unused sequential element q4_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fbkb.vhd:3228]
+WARNING: [Synth 8-6014] Unused sequential element q5_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fbkb.vhd:3231]
+INFO: [Synth 8-802] inferred FSM for state register 'wstate_reg' in module 'phase_generator_fp_AXILiteS_s_axi'
+WARNING: [Synth 8-6014] Unused sequential element wstate_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fp_AXILiteS_s_axi.vhd:96]
+INFO: [Synth 8-5544] ROM "ARREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "RVALID_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "rdata_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "BVALID" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "WREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "AWREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "wnext" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "wnext" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "tmp_1_i_fu_222_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "sel_tmp10_i1_fu_500_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sel_tmp4_i1_fu_468_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sel_tmp6_i1_fu_481_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sel_tmp_i1_fu_444_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sel_tmp10_i2_fu_597_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sel_tmp4_i2_fu_565_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sel_tmp6_i2_fu_578_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sel_tmp_i2_fu_541_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sel_tmp10_i_fu_403_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sel_tmp4_i_fu_371_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sel_tmp6_i_fu_384_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sel_tmp_i_fu_347_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element acc_V_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fp.vhd:387]
+INFO: [Synth 8-5546] ROM "tmp_1_i_fu_222_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "sel_tmp10_i1_fu_500_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sel_tmp4_i1_fu_468_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sel_tmp6_i1_fu_481_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sel_tmp_i1_fu_444_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sel_tmp10_i2_fu_597_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sel_tmp4_i2_fu_565_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sel_tmp6_i2_fu_578_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sel_tmp_i2_fu_541_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sel_tmp10_i_fu_403_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sel_tmp4_i_fu_371_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sel_tmp6_i_fu_384_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sel_tmp_i_fu_347_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element wstate_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fp_AXILiteS_s_axi.vhd:96]
+WARNING: [Synth 8-6014] Unused sequential element wstate_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fp_AXILiteS_s_axi.vhd:96]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                             0001 |                              011
+*
+                  wridle |                             0010 |                              000
+                  wrdata |                             0100 |                              001
+                  wrresp |                             1000 |                              010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wstate_reg' using encoding 'one-hot' in module 'phase_generator_fp_AXILiteS_s_axi'
+WARNING: [Synth 8-6014] Unused sequential element wstate_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fp_AXILiteS_s_axi.vhd:96]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 680.586 ; gain = 432.371
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 2     
++---XORs : 
+	   2 Input     32 Bit         XORs := 6     
+	   2 Input      1 Bit         XORs := 3     
++---Registers : 
+	               32 Bit    Registers := 11    
+	               12 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 16    
++---ROMs : 
+	                              ROMs := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   7 Input      4 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 22    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module phase_generator_fbkb_rom 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 6     
++---ROMs : 
+	                              ROMs := 6     
+Module phase_generator_fp_AXILiteS_s_axi 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   7 Input      4 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module phase_generator_fp 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 2     
++---XORs : 
+	   2 Input     32 Bit         XORs := 6     
+	   2 Input      1 Bit         XORs := 3     
++---Registers : 
+	               32 Bit    Registers := 3     
+	               12 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 16    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 19    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "tmp_1_i_fu_222_p2" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element acc_V_reg was removed.  [d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ipshared/092f/hdl/vhdl/phase_generator_fp.vhd:387]
+INFO: [Synth 8-3886] merging instance 'U0/full_adr_V_reg_661_reg[0]' (FDE) to 'U0/lut_addr_V_reg_675_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/full_adr_V_reg_661_reg[11]' (FDE) to 'U0/quad_V_reg_667_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/full_adr_V_reg_661_reg[1]' (FDE) to 'U0/lut_addr_V_reg_675_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/full_adr_V_reg_661_reg[2]' (FDE) to 'U0/lut_addr_V_reg_675_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/full_adr_V_reg_661_reg[3]' (FDE) to 'U0/lut_addr_V_reg_675_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/full_adr_V_reg_661_reg[4]' (FDE) to 'U0/lut_addr_V_reg_675_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/full_adr_V_reg_661_reg[5]' (FDE) to 'U0/lut_addr_V_reg_675_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/full_adr_V_reg_661_reg[6]' (FDE) to 'U0/lut_addr_V_reg_675_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/full_adr_V_reg_661_reg[7]' (FDE) to 'U0/lut_addr_V_reg_675_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/full_adr_V_reg_661_reg[8]' (FDE) to 'U0/lut_addr_V_reg_675_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U0/full_adr_V_reg_661_reg[9]' (FDE) to 'U0/lut_addr_V_reg_675_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/full_adr_V_reg_661_reg[10]' (FDE) to 'U0/quad_V_reg_667_reg[0]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/\phase_generator_fp_AXILiteS_s_axi_U/rstate_reg[2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/\ap_CS_fsm_reg[0] )
+WARNING: [Synth 8-3332] Sequential element (phase_generator_fp_AXILiteS_s_axi_U/rstate_reg[2]) is unused and will be removed from module phase_generator_fp.
+WARNING: [Synth 8-3332] Sequential element (ap_CS_fsm_reg[0]) is unused and will be removed from module phase_generator_fp.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 680.586 ; gain = 432.371
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++-------------------------+------------+---------------+----------------+
+|Module Name              | RTL Object | Depth x Width | Implemented As | 
++-------------------------+------------+---------------+----------------+
+|phase_generator_fbkb_rom | q0_reg     | 1024x32       | Block RAM      | 
+|phase_generator_fbkb_rom | q1_reg     | 1024x32       | Block RAM      | 
+|phase_generator_fbkb_rom | q2_reg     | 1024x32       | Block RAM      | 
+|phase_generator_fbkb_rom | q3_reg     | 1024x32       | Block RAM      | 
+|phase_generator_fbkb_rom | q4_reg     | 1024x32       | Block RAM      | 
+|phase_generator_fbkb_rom | q5_reg     | 1024x32       | Block RAM      | 
++-------------------------+------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 680.586 ; gain = 432.371
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 680.586 ; gain = 432.371
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance U0/cos_lut_U/phase_generator_fbkb_rom_U/q0_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/cos_lut_U/phase_generator_fbkb_rom_U/q0_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/cos_lut_U/phase_generator_fbkb_rom_U/q2_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/cos_lut_U/phase_generator_fbkb_rom_U/q2_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/cos_lut_U/phase_generator_fbkb_rom_U/q4_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/cos_lut_U/phase_generator_fbkb_rom_U/q4_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 680.586 ; gain = 432.371
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 680.586 ; gain = 432.371
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 680.586 ; gain = 432.371
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 680.586 ; gain = 432.371
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 680.586 ; gain = 432.371
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 680.586 ; gain = 432.371
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 680.586 ; gain = 432.371
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |    22|
+|2     |LUT1     |    25|
+|3     |LUT2     |    79|
+|4     |LUT3     |    39|
+|5     |LUT4     |   200|
+|6     |LUT5     |    14|
+|7     |LUT6     |     7|
+|8     |RAMB36E1 |     3|
+|9     |FDRE     |   234|
+|10    |FDSE     |     2|
++------+---------+------+
+
+Report Instance Areas: 
++------+----------------------------------------+----------------------------------+------+
+|      |Instance                                |Module                            |Cells |
++------+----------------------------------------+----------------------------------+------+
+|1     |top                                     |                                  |   625|
+|2     |  U0                                    |phase_generator_fp                |   625|
+|3     |    cos_lut_U                           |phase_generator_fbkb              |   159|
+|4     |      phase_generator_fbkb_rom_U        |phase_generator_fbkb_rom          |   159|
+|5     |    phase_generator_fp_AXILiteS_s_axi_U |phase_generator_fp_AXILiteS_s_axi |   199|
++------+----------------------------------------+----------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 680.586 ; gain = 432.371
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 14 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 680.586 ; gain = 122.078
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 680.586 ; gain = 432.371
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 25 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+92 Infos, 25 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 680.586 ; gain = 435.000
+INFO: [Common 17-1381] The checkpoint 'D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/top_bd_phase_generator_fp_0_0_synth_1/top_bd_phase_generator_fp_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP d:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.srcs/sources_1/bd/top_bd/ip/top_bd_phase_generator_fp_0_0/top_bd_phase_generator_fp_0_0.xci
+INFO: [Coretcl 2-1174] Renamed 4 cell refs.
+INFO: [Common 17-1381] The checkpoint 'D:/Projects/PSoC_3ph_f2f/vivado/3ph_f2f_dq_rev0/3ph_f2f_dq_prj/3ph_f2f_dq_prj.runs/top_bd_phase_generator_fp_0_0_synth_1/top_bd_phase_generator_fp_0_0.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 680.586 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Sep 15 21:03:39 2017...
